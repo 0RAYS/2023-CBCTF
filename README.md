@@ -4,7 +4,7 @@
 ## Web
 ### [Challenge Nmae](https://github.com/0RAYS/CBCTF-attachments-Template/tree/main/Web/Challenge%20Name)
 ## Misc
-### [EncodeJail](https://github.com/0RAYS/CBCTF-attachments-Template/tree/main/Misc/EncodeJail)
+### [EncodeJail](https://github.com/0RAYS/2023-CBCTF/tree/main/Misc/EncodeJail)
 ## Reverse
 ### [Challenge Nmae](https://github.com/0RAYS/CBCTF-attachments-Template/tree/main/Reverse/Challenge%20Name)
 ## Pwn

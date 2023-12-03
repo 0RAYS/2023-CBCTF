@@ -2,7 +2,7 @@
 附件存放模板
 
 ## Web
-### [Challenge Nmae](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/Challenge%20Name)
+### [RealworldXSS](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/RealworldXSS)
 ## Misc
 ### [EncodeJail](https://github.com/0RAYS/2023-CBCTF/tree/main/Misc/EncodeJail)
 ## Reverse

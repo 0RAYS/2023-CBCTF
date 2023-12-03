@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  server:
+    build: ./server
+    restart: unless-stopped
+    cap_add:
+      - CAP_NET_ADMIN
+    ports:
+      - 46534:8000
+    environment:
+      - TIMEOUT=5
+      - WORKER=16

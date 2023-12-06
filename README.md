@@ -1,6 +1,4 @@
-# CBCTF-attachments-Template
-附件存放模板
-
+# CBCTF 2023
 ## Web
 ### [RealworldXSS](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/RealworldXSS)
 ## Misc

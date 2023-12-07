@@ -8,7 +8,7 @@
 ## Pwn
 ### [Challenge Name](https://github.com/0RAYS/2023-CBCTF/tree/main/Pwn/Challenge%20Name)
 ## Crypto
-### [Challenge Name](https://github.com/0RAYS/2023-CBCTF/tree/main/Crypto/Challenge%20Name)
+### [二次剩余](https://github.com/0RAYS/2023-CBCTF/tree/main/Crypto/%E4%BA%8C%E6%AC%A1%E5%89%A9%E4%BD%99)
 ## Blockchain
 ### [EVM starting point⁻¹](https://github.com/0RAYS/2023-CBCTF/tree/main/Blockchain/EVM%20starting%20point%E2%81%BB%C2%B9)
 ### [v 0.05eth to me](https://github.com/0RAYS/2023-CBCTF/tree/main/Blockchain/v%200.05eth%20to%20me)

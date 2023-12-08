@@ -1,0 +1,1197 @@
+jmp %_PUT0
+INP:
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+raw #0
+
+_STR0:
+raw #4d
+raw #69
+raw #78
+raw #65
+raw #64
+raw #20
+raw #77
+raw #69
+raw #74
+raw #68
+raw #20
+raw #73
+raw #6f
+raw #6d
+raw #65
+raw #74
+raw #68
+raw #69
+raw #6e
+raw #67
+raw #20
+raw #6d
+raw #61
+raw #74
+raw #68
+raw #20
+raw #61
+raw #6e
+raw #64
+raw #20
+raw #73
+raw #6f
+raw #6d
+raw #65
+raw #74
+raw #68
+raw #69
+raw #6e
+raw #67
+raw #20
+raw #6d
+raw #61
+raw #67
+raw #69
+raw #63
+raw #2e
+raw #a
+raw #47
+raw #69
+raw #6d
+raw #6d
+raw #65
+raw #20
+raw #66
+raw #6c
+raw #61
+raw #67
+raw #3a
+_PUT0:
+put [%_STR0+0]
+put [%_STR0+1]
+put [%_STR0+2]
+put [%_STR0+3]
+put [%_STR0+4]
+put [%_STR0+5]
+put [%_STR0+6]
+put [%_STR0+7]
+put [%_STR0+8]
+put [%_STR0+9]
+put [%_STR0+a]
+put [%_STR0+b]
+put [%_STR0+c]
+put [%_STR0+d]
+put [%_STR0+e]
+put [%_STR0+f]
+put [%_STR0+10]
+put [%_STR0+11]
+put [%_STR0+12]
+put [%_STR0+13]
+put [%_STR0+14]
+put [%_STR0+15]
+put [%_STR0+16]
+put [%_STR0+17]
+put [%_STR0+18]
+put [%_STR0+19]
+put [%_STR0+1a]
+put [%_STR0+1b]
+put [%_STR0+1c]
+put [%_STR0+1d]
+put [%_STR0+1e]
+put [%_STR0+1f]
+put [%_STR0+20]
+put [%_STR0+21]
+put [%_STR0+22]
+put [%_STR0+23]
+put [%_STR0+24]
+put [%_STR0+25]
+put [%_STR0+26]
+put [%_STR0+27]
+put [%_STR0+28]
+put [%_STR0+29]
+put [%_STR0+2a]
+put [%_STR0+2b]
+put [%_STR0+2c]
+put [%_STR0+2d]
+put [%_STR0+2e]
+put [%_STR0+2f]
+put [%_STR0+30]
+put [%_STR0+31]
+put [%_STR0+32]
+put [%_STR0+33]
+put [%_STR0+34]
+put [%_STR0+35]
+put [%_STR0+36]
+put [%_STR0+37]
+put [%_STR0+38]
+put [%_STR0+39]
+
+get [%INP+0]
+get [%INP+1]
+get [%INP+2]
+get [%INP+3]
+get [%INP+4]
+get [%INP+5]
+get [%INP+6]
+get [%INP+7]
+get [%INP+8]
+get [%INP+9]
+get [%INP+a]
+get [%INP+b]
+get [%INP+c]
+get [%INP+d]
+get [%INP+e]
+get [%INP+f]
+get [%INP+10]
+get [%INP+11]
+get [%INP+12]
+get [%INP+13]
+get [%INP+14]
+get [%INP+15]
+get [%INP+16]
+get [%INP+17]
+get [%INP+18]
+get [%INP+19]
+get [%INP+1a]
+get [%INP+1b]
+get [%INP+1c]
+get [%INP+1d]
+get [%INP+1e]
+get [%INP+1f]
+get [%INP+20]
+get [%INP+21]
+get [%INP+22]
+get [%INP+23]
+jmp %_CKP0
+_CKPBUF0:
+raw #0
+_CKP0:
+sub [%_CKPBUF0], [%INP+1]
+sub [%_CKPBUF0], [%INP+1]
+sub [%_CKPBUF0], [%INP+1]
+sub [%_CKPBUF0], [%INP+1]
+sub [%_CKPBUF0], [%INP+1]
+sub [%_CKPBUF0], [%INP+2]
+sub [%_CKPBUF0], [%INP+2]
+sub [%_CKPBUF0], [%INP+2]
+sub [%_CKPBUF0], [%INP+2]
+sub [%_CKPBUF0], [%INP+2]
+sub [%_CKPBUF0], [%INP+3]
+sub [%_CKPBUF0], [%INP+3]
+sub [%_CKPBUF0], [%INP+4]
+sub [%_CKPBUF0], [%INP+4]
+sub [%_CKPBUF0], [%INP+4]
+sub [%_CKPBUF0], [%INP+4]
+sub [%_CKPBUF0], [%INP+4]
+sub [%_CKPBUF0], [%INP+4]
+sub [%_CKPBUF0], [%INP+4]
+sub [%_CKPBUF0], [%INP+5]
+sub [%_CKPBUF0], [%INP+5]
+sub [%_CKPBUF0], [%INP+5]
+sub [%_CKPBUF0], [%INP+5]
+sub [%_CKPBUF0], [%INP+5]
+sub [%_CKPBUF0], [%INP+5]
+chk-jne [%_CKPBUF0], #fffff7f3, %_PUT2
+jmp %_CKP1
+_CKPBUF1:
+raw #0
+_CKP1:
+sub [%_CKPBUF1], [%INP+0]
+sub [%_CKPBUF1], [%INP+0]
+sub [%_CKPBUF1], [%INP+0]
+sub [%_CKPBUF1], [%INP+0]
+sub [%_CKPBUF1], [%INP+0]
+sub [%_CKPBUF1], [%INP+1]
+sub [%_CKPBUF1], [%INP+2]
+sub [%_CKPBUF1], [%INP+2]
+sub [%_CKPBUF1], [%INP+2]
+sub [%_CKPBUF1], [%INP+2]
+sub [%_CKPBUF1], [%INP+2]
+sub [%_CKPBUF1], [%INP+3]
+sub [%_CKPBUF1], [%INP+3]
+sub [%_CKPBUF1], [%INP+3]
+sub [%_CKPBUF1], [%INP+3]
+sub [%_CKPBUF1], [%INP+4]
+sub [%_CKPBUF1], [%INP+4]
+sub [%_CKPBUF1], [%INP+4]
+sub [%_CKPBUF1], [%INP+4]
+sub [%_CKPBUF1], [%INP+4]
+sub [%_CKPBUF1], [%INP+4]
+sub [%_CKPBUF1], [%INP+5]
+sub [%_CKPBUF1], [%INP+5]
+sub [%_CKPBUF1], [%INP+5]
+chk-jne [%_CKPBUF1], #fffff8bb, %_PUT2
+jmp %_CKP2
+_CKPBUF2:
+raw #0
+_CKP2:
+sub [%_CKPBUF2], [%INP+0]
+sub [%_CKPBUF2], [%INP+1]
+sub [%_CKPBUF2], [%INP+2]
+sub [%_CKPBUF2], [%INP+2]
+sub [%_CKPBUF2], [%INP+2]
+sub [%_CKPBUF2], [%INP+2]
+sub [%_CKPBUF2], [%INP+2]
+sub [%_CKPBUF2], [%INP+2]
+sub [%_CKPBUF2], [%INP+3]
+sub [%_CKPBUF2], [%INP+3]
+sub [%_CKPBUF2], [%INP+3]
+sub [%_CKPBUF2], [%INP+3]
+sub [%_CKPBUF2], [%INP+4]
+sub [%_CKPBUF2], [%INP+4]
+sub [%_CKPBUF2], [%INP+5]
+sub [%_CKPBUF2], [%INP+5]
+sub [%_CKPBUF2], [%INP+5]
+sub [%_CKPBUF2], [%INP+5]
+sub [%_CKPBUF2], [%INP+5]
+sub [%_CKPBUF2], [%INP+5]
+chk-jne [%_CKPBUF2], #fffff92b, %_PUT2
+jmp %_CKP3
+_CKPBUF3:
+raw #0
+_CKP3:
+sub [%_CKPBUF3], [%INP+0]
+sub [%_CKPBUF3], [%INP+0]
+sub [%_CKPBUF3], [%INP+0]
+sub [%_CKPBUF3], [%INP+0]
+sub [%_CKPBUF3], [%INP+0]
+sub [%_CKPBUF3], [%INP+0]
+sub [%_CKPBUF3], [%INP+0]
+sub [%_CKPBUF3], [%INP+1]
+sub [%_CKPBUF3], [%INP+1]
+sub [%_CKPBUF3], [%INP+1]
+sub [%_CKPBUF3], [%INP+1]
+sub [%_CKPBUF3], [%INP+1]
+sub [%_CKPBUF3], [%INP+2]
+sub [%_CKPBUF3], [%INP+2]
+sub [%_CKPBUF3], [%INP+2]
+sub [%_CKPBUF3], [%INP+3]
+sub [%_CKPBUF3], [%INP+3]
+sub [%_CKPBUF3], [%INP+3]
+sub [%_CKPBUF3], [%INP+3]
+sub [%_CKPBUF3], [%INP+4]
+sub [%_CKPBUF3], [%INP+4]
+sub [%_CKPBUF3], [%INP+4]
+sub [%_CKPBUF3], [%INP+4]
+sub [%_CKPBUF3], [%INP+4]
+sub [%_CKPBUF3], [%INP+5]
+chk-jne [%_CKPBUF3], #fffff8ef, %_PUT2
+jmp %_CKP4
+_CKPBUF4:
+raw #0
+_CKP4:
+sub [%_CKPBUF4], [%INP+0]
+sub [%_CKPBUF4], [%INP+1]
+sub [%_CKPBUF4], [%INP+1]
+sub [%_CKPBUF4], [%INP+1]
+sub [%_CKPBUF4], [%INP+1]
+sub [%_CKPBUF4], [%INP+2]
+sub [%_CKPBUF4], [%INP+2]
+sub [%_CKPBUF4], [%INP+2]
+sub [%_CKPBUF4], [%INP+2]
+sub [%_CKPBUF4], [%INP+3]
+sub [%_CKPBUF4], [%INP+3]
+sub [%_CKPBUF4], [%INP+4]
+sub [%_CKPBUF4], [%INP+5]
+chk-jne [%_CKPBUF4], #fffffc40, %_PUT2
+jmp %_CKP5
+_CKPBUF5:
+raw #0
+_CKP5:
+sub [%_CKPBUF5], [%INP+0]
+sub [%_CKPBUF5], [%INP+0]
+sub [%_CKPBUF5], [%INP+0]
+sub [%_CKPBUF5], [%INP+0]
+sub [%_CKPBUF5], [%INP+0]
+sub [%_CKPBUF5], [%INP+0]
+sub [%_CKPBUF5], [%INP+1]
+sub [%_CKPBUF5], [%INP+1]
+sub [%_CKPBUF5], [%INP+3]
+sub [%_CKPBUF5], [%INP+3]
+sub [%_CKPBUF5], [%INP+3]
+sub [%_CKPBUF5], [%INP+3]
+sub [%_CKPBUF5], [%INP+4]
+sub [%_CKPBUF5], [%INP+4]
+sub [%_CKPBUF5], [%INP+4]
+sub [%_CKPBUF5], [%INP+4]
+sub [%_CKPBUF5], [%INP+4]
+sub [%_CKPBUF5], [%INP+4]
+sub [%_CKPBUF5], [%INP+5]
+sub [%_CKPBUF5], [%INP+5]
+chk-jne [%_CKPBUF5], #fffffa00, %_PUT2
+jmp %_CKP6
+_CKPBUF6:
+raw #0
+_CKP6:
+sub [%_CKPBUF6], [%INP+7]
+sub [%_CKPBUF6], [%INP+7]
+sub [%_CKPBUF6], [%INP+7]
+sub [%_CKPBUF6], [%INP+7]
+sub [%_CKPBUF6], [%INP+7]
+sub [%_CKPBUF6], [%INP+8]
+sub [%_CKPBUF6], [%INP+8]
+sub [%_CKPBUF6], [%INP+8]
+sub [%_CKPBUF6], [%INP+8]
+sub [%_CKPBUF6], [%INP+8]
+sub [%_CKPBUF6], [%INP+9]
+sub [%_CKPBUF6], [%INP+9]
+sub [%_CKPBUF6], [%INP+a]
+sub [%_CKPBUF6], [%INP+a]
+sub [%_CKPBUF6], [%INP+a]
+sub [%_CKPBUF6], [%INP+a]
+sub [%_CKPBUF6], [%INP+a]
+sub [%_CKPBUF6], [%INP+a]
+sub [%_CKPBUF6], [%INP+a]
+sub [%_CKPBUF6], [%INP+b]
+sub [%_CKPBUF6], [%INP+b]
+sub [%_CKPBUF6], [%INP+b]
+sub [%_CKPBUF6], [%INP+b]
+sub [%_CKPBUF6], [%INP+b]
+sub [%_CKPBUF6], [%INP+b]
+chk-jne [%_CKPBUF6], #fffff613, %_PUT2
+jmp %_CKP7
+_CKPBUF7:
+raw #0
+_CKP7:
+sub [%_CKPBUF7], [%INP+6]
+sub [%_CKPBUF7], [%INP+6]
+sub [%_CKPBUF7], [%INP+6]
+sub [%_CKPBUF7], [%INP+6]
+sub [%_CKPBUF7], [%INP+6]
+sub [%_CKPBUF7], [%INP+7]
+sub [%_CKPBUF7], [%INP+8]
+sub [%_CKPBUF7], [%INP+8]
+sub [%_CKPBUF7], [%INP+8]
+sub [%_CKPBUF7], [%INP+8]
+sub [%_CKPBUF7], [%INP+8]
+sub [%_CKPBUF7], [%INP+9]
+sub [%_CKPBUF7], [%INP+9]
+sub [%_CKPBUF7], [%INP+9]
+sub [%_CKPBUF7], [%INP+9]
+sub [%_CKPBUF7], [%INP+a]
+sub [%_CKPBUF7], [%INP+a]
+sub [%_CKPBUF7], [%INP+a]
+sub [%_CKPBUF7], [%INP+a]
+sub [%_CKPBUF7], [%INP+a]
+sub [%_CKPBUF7], [%INP+a]
+sub [%_CKPBUF7], [%INP+b]
+sub [%_CKPBUF7], [%INP+b]
+sub [%_CKPBUF7], [%INP+b]
+chk-jne [%_CKPBUF7], #fffff71b, %_PUT2
+jmp %_CKP8
+_CKPBUF8:
+raw #0
+_CKP8:
+sub [%_CKPBUF8], [%INP+6]
+sub [%_CKPBUF8], [%INP+7]
+sub [%_CKPBUF8], [%INP+8]
+sub [%_CKPBUF8], [%INP+8]
+sub [%_CKPBUF8], [%INP+8]
+sub [%_CKPBUF8], [%INP+8]
+sub [%_CKPBUF8], [%INP+8]
+sub [%_CKPBUF8], [%INP+8]
+sub [%_CKPBUF8], [%INP+9]
+sub [%_CKPBUF8], [%INP+9]
+sub [%_CKPBUF8], [%INP+9]
+sub [%_CKPBUF8], [%INP+9]
+sub [%_CKPBUF8], [%INP+a]
+sub [%_CKPBUF8], [%INP+a]
+sub [%_CKPBUF8], [%INP+b]
+sub [%_CKPBUF8], [%INP+b]
+sub [%_CKPBUF8], [%INP+b]
+sub [%_CKPBUF8], [%INP+b]
+sub [%_CKPBUF8], [%INP+b]
+sub [%_CKPBUF8], [%INP+b]
+chk-jne [%_CKPBUF8], #fffff7f7, %_PUT2
+jmp %_CKP9
+_CKPBUF9:
+raw #0
+_CKP9:
+sub [%_CKPBUF9], [%INP+6]
+sub [%_CKPBUF9], [%INP+6]
+sub [%_CKPBUF9], [%INP+6]
+sub [%_CKPBUF9], [%INP+6]
+sub [%_CKPBUF9], [%INP+6]
+sub [%_CKPBUF9], [%INP+6]
+sub [%_CKPBUF9], [%INP+6]
+sub [%_CKPBUF9], [%INP+7]
+sub [%_CKPBUF9], [%INP+7]
+sub [%_CKPBUF9], [%INP+7]
+sub [%_CKPBUF9], [%INP+7]
+sub [%_CKPBUF9], [%INP+7]
+sub [%_CKPBUF9], [%INP+8]
+sub [%_CKPBUF9], [%INP+8]
+sub [%_CKPBUF9], [%INP+8]
+sub [%_CKPBUF9], [%INP+9]
+sub [%_CKPBUF9], [%INP+9]
+sub [%_CKPBUF9], [%INP+9]
+sub [%_CKPBUF9], [%INP+9]
+sub [%_CKPBUF9], [%INP+a]
+sub [%_CKPBUF9], [%INP+a]
+sub [%_CKPBUF9], [%INP+a]
+sub [%_CKPBUF9], [%INP+a]
+sub [%_CKPBUF9], [%INP+a]
+sub [%_CKPBUF9], [%INP+b]
+chk-jne [%_CKPBUF9], #fffff6fe, %_PUT2
+jmp %_CKP10
+_CKPBUF10:
+raw #0
+_CKP10:
+sub [%_CKPBUF10], [%INP+6]
+sub [%_CKPBUF10], [%INP+7]
+sub [%_CKPBUF10], [%INP+7]
+sub [%_CKPBUF10], [%INP+7]
+sub [%_CKPBUF10], [%INP+7]
+sub [%_CKPBUF10], [%INP+8]
+sub [%_CKPBUF10], [%INP+8]
+sub [%_CKPBUF10], [%INP+8]
+sub [%_CKPBUF10], [%INP+8]
+sub [%_CKPBUF10], [%INP+9]
+sub [%_CKPBUF10], [%INP+9]
+sub [%_CKPBUF10], [%INP+a]
+sub [%_CKPBUF10], [%INP+b]
+chk-jne [%_CKPBUF10], #fffffaf2, %_PUT2
+jmp %_CKP11
+_CKPBUF11:
+raw #0
+_CKP11:
+sub [%_CKPBUF11], [%INP+6]
+sub [%_CKPBUF11], [%INP+6]
+sub [%_CKPBUF11], [%INP+6]
+sub [%_CKPBUF11], [%INP+6]
+sub [%_CKPBUF11], [%INP+6]
+sub [%_CKPBUF11], [%INP+6]
+sub [%_CKPBUF11], [%INP+7]
+sub [%_CKPBUF11], [%INP+7]
+sub [%_CKPBUF11], [%INP+9]
+sub [%_CKPBUF11], [%INP+9]
+sub [%_CKPBUF11], [%INP+9]
+sub [%_CKPBUF11], [%INP+9]
+sub [%_CKPBUF11], [%INP+a]
+sub [%_CKPBUF11], [%INP+a]
+sub [%_CKPBUF11], [%INP+a]
+sub [%_CKPBUF11], [%INP+a]
+sub [%_CKPBUF11], [%INP+a]
+sub [%_CKPBUF11], [%INP+a]
+sub [%_CKPBUF11], [%INP+b]
+sub [%_CKPBUF11], [%INP+b]
+chk-jne [%_CKPBUF11], #fffff8c6, %_PUT2
+jmp %_CKP12
+_CKPBUF12:
+raw #0
+_CKP12:
+sub [%_CKPBUF12], [%INP+d]
+sub [%_CKPBUF12], [%INP+d]
+sub [%_CKPBUF12], [%INP+d]
+sub [%_CKPBUF12], [%INP+d]
+sub [%_CKPBUF12], [%INP+d]
+sub [%_CKPBUF12], [%INP+e]
+sub [%_CKPBUF12], [%INP+e]
+sub [%_CKPBUF12], [%INP+e]
+sub [%_CKPBUF12], [%INP+e]
+sub [%_CKPBUF12], [%INP+e]
+sub [%_CKPBUF12], [%INP+f]
+sub [%_CKPBUF12], [%INP+f]
+sub [%_CKPBUF12], [%INP+10]
+sub [%_CKPBUF12], [%INP+10]
+sub [%_CKPBUF12], [%INP+10]
+sub [%_CKPBUF12], [%INP+10]
+sub [%_CKPBUF12], [%INP+10]
+sub [%_CKPBUF12], [%INP+10]
+sub [%_CKPBUF12], [%INP+10]
+sub [%_CKPBUF12], [%INP+11]
+sub [%_CKPBUF12], [%INP+11]
+sub [%_CKPBUF12], [%INP+11]
+sub [%_CKPBUF12], [%INP+11]
+sub [%_CKPBUF12], [%INP+11]
+sub [%_CKPBUF12], [%INP+11]
+chk-jne [%_CKPBUF12], #fffff5d3, %_PUT2
+jmp %_CKP13
+_CKPBUF13:
+raw #0
+_CKP13:
+sub [%_CKPBUF13], [%INP+c]
+sub [%_CKPBUF13], [%INP+c]
+sub [%_CKPBUF13], [%INP+c]
+sub [%_CKPBUF13], [%INP+c]
+sub [%_CKPBUF13], [%INP+c]
+sub [%_CKPBUF13], [%INP+d]
+sub [%_CKPBUF13], [%INP+e]
+sub [%_CKPBUF13], [%INP+e]
+sub [%_CKPBUF13], [%INP+e]
+sub [%_CKPBUF13], [%INP+e]
+sub [%_CKPBUF13], [%INP+e]
+sub [%_CKPBUF13], [%INP+f]
+sub [%_CKPBUF13], [%INP+f]
+sub [%_CKPBUF13], [%INP+f]
+sub [%_CKPBUF13], [%INP+f]
+sub [%_CKPBUF13], [%INP+10]
+sub [%_CKPBUF13], [%INP+10]
+sub [%_CKPBUF13], [%INP+10]
+sub [%_CKPBUF13], [%INP+10]
+sub [%_CKPBUF13], [%INP+10]
+sub [%_CKPBUF13], [%INP+10]
+sub [%_CKPBUF13], [%INP+11]
+sub [%_CKPBUF13], [%INP+11]
+sub [%_CKPBUF13], [%INP+11]
+chk-jne [%_CKPBUF13], #fffff677, %_PUT2
+jmp %_CKP14
+_CKPBUF14:
+raw #0
+_CKP14:
+sub [%_CKPBUF14], [%INP+c]
+sub [%_CKPBUF14], [%INP+d]
+sub [%_CKPBUF14], [%INP+e]
+sub [%_CKPBUF14], [%INP+e]
+sub [%_CKPBUF14], [%INP+e]
+sub [%_CKPBUF14], [%INP+e]
+sub [%_CKPBUF14], [%INP+e]
+sub [%_CKPBUF14], [%INP+e]
+sub [%_CKPBUF14], [%INP+f]
+sub [%_CKPBUF14], [%INP+f]
+sub [%_CKPBUF14], [%INP+f]
+sub [%_CKPBUF14], [%INP+f]
+sub [%_CKPBUF14], [%INP+10]
+sub [%_CKPBUF14], [%INP+10]
+sub [%_CKPBUF14], [%INP+11]
+sub [%_CKPBUF14], [%INP+11]
+sub [%_CKPBUF14], [%INP+11]
+sub [%_CKPBUF14], [%INP+11]
+sub [%_CKPBUF14], [%INP+11]
+sub [%_CKPBUF14], [%INP+11]
+chk-jne [%_CKPBUF14], #fffff837, %_PUT2
+jmp %_CKP15
+_CKPBUF15:
+raw #0
+_CKP15:
+sub [%_CKPBUF15], [%INP+c]
+sub [%_CKPBUF15], [%INP+c]
+sub [%_CKPBUF15], [%INP+c]
+sub [%_CKPBUF15], [%INP+c]
+sub [%_CKPBUF15], [%INP+c]
+sub [%_CKPBUF15], [%INP+c]
+sub [%_CKPBUF15], [%INP+c]
+sub [%_CKPBUF15], [%INP+d]
+sub [%_CKPBUF15], [%INP+d]
+sub [%_CKPBUF15], [%INP+d]
+sub [%_CKPBUF15], [%INP+d]
+sub [%_CKPBUF15], [%INP+d]
+sub [%_CKPBUF15], [%INP+e]
+sub [%_CKPBUF15], [%INP+e]
+sub [%_CKPBUF15], [%INP+e]
+sub [%_CKPBUF15], [%INP+f]
+sub [%_CKPBUF15], [%INP+f]
+sub [%_CKPBUF15], [%INP+f]
+sub [%_CKPBUF15], [%INP+f]
+sub [%_CKPBUF15], [%INP+10]
+sub [%_CKPBUF15], [%INP+10]
+sub [%_CKPBUF15], [%INP+10]
+sub [%_CKPBUF15], [%INP+10]
+sub [%_CKPBUF15], [%INP+10]
+sub [%_CKPBUF15], [%INP+11]
+chk-jne [%_CKPBUF15], #fffff5cf, %_PUT2
+jmp %_CKP16
+_CKPBUF16:
+raw #0
+_CKP16:
+sub [%_CKPBUF16], [%INP+c]
+sub [%_CKPBUF16], [%INP+d]
+sub [%_CKPBUF16], [%INP+d]
+sub [%_CKPBUF16], [%INP+d]
+sub [%_CKPBUF16], [%INP+d]
+sub [%_CKPBUF16], [%INP+e]
+sub [%_CKPBUF16], [%INP+e]
+sub [%_CKPBUF16], [%INP+e]
+sub [%_CKPBUF16], [%INP+e]
+sub [%_CKPBUF16], [%INP+f]
+sub [%_CKPBUF16], [%INP+f]
+sub [%_CKPBUF16], [%INP+10]
+sub [%_CKPBUF16], [%INP+11]
+chk-jne [%_CKPBUF16], #fffffab4, %_PUT2
+jmp %_CKP17
+_CKPBUF17:
+raw #0
+_CKP17:
+sub [%_CKPBUF17], [%INP+c]
+sub [%_CKPBUF17], [%INP+c]
+sub [%_CKPBUF17], [%INP+c]
+sub [%_CKPBUF17], [%INP+c]
+sub [%_CKPBUF17], [%INP+c]
+sub [%_CKPBUF17], [%INP+c]
+sub [%_CKPBUF17], [%INP+d]
+sub [%_CKPBUF17], [%INP+d]
+sub [%_CKPBUF17], [%INP+f]
+sub [%_CKPBUF17], [%INP+f]
+sub [%_CKPBUF17], [%INP+f]
+sub [%_CKPBUF17], [%INP+f]
+sub [%_CKPBUF17], [%INP+10]
+sub [%_CKPBUF17], [%INP+10]
+sub [%_CKPBUF17], [%INP+10]
+sub [%_CKPBUF17], [%INP+10]
+sub [%_CKPBUF17], [%INP+10]
+sub [%_CKPBUF17], [%INP+10]
+sub [%_CKPBUF17], [%INP+11]
+sub [%_CKPBUF17], [%INP+11]
+chk-jne [%_CKPBUF17], #fffff7dc, %_PUT2
+jmp %_CKP18
+_CKPBUF18:
+raw #0
+_CKP18:
+sub [%_CKPBUF18], [%INP+13]
+sub [%_CKPBUF18], [%INP+13]
+sub [%_CKPBUF18], [%INP+13]
+sub [%_CKPBUF18], [%INP+13]
+sub [%_CKPBUF18], [%INP+13]
+sub [%_CKPBUF18], [%INP+14]
+sub [%_CKPBUF18], [%INP+14]
+sub [%_CKPBUF18], [%INP+14]
+sub [%_CKPBUF18], [%INP+14]
+sub [%_CKPBUF18], [%INP+14]
+sub [%_CKPBUF18], [%INP+15]
+sub [%_CKPBUF18], [%INP+15]
+sub [%_CKPBUF18], [%INP+16]
+sub [%_CKPBUF18], [%INP+16]
+sub [%_CKPBUF18], [%INP+16]
+sub [%_CKPBUF18], [%INP+16]
+sub [%_CKPBUF18], [%INP+16]
+sub [%_CKPBUF18], [%INP+16]
+sub [%_CKPBUF18], [%INP+16]
+sub [%_CKPBUF18], [%INP+17]
+sub [%_CKPBUF18], [%INP+17]
+sub [%_CKPBUF18], [%INP+17]
+sub [%_CKPBUF18], [%INP+17]
+sub [%_CKPBUF18], [%INP+17]
+sub [%_CKPBUF18], [%INP+17]
+chk-jne [%_CKPBUF18], #fffff674, %_PUT2
+jmp %_CKP19
+_CKPBUF19:
+raw #0
+_CKP19:
+sub [%_CKPBUF19], [%INP+12]
+sub [%_CKPBUF19], [%INP+12]
+sub [%_CKPBUF19], [%INP+12]
+sub [%_CKPBUF19], [%INP+12]
+sub [%_CKPBUF19], [%INP+12]
+sub [%_CKPBUF19], [%INP+13]
+sub [%_CKPBUF19], [%INP+14]
+sub [%_CKPBUF19], [%INP+14]
+sub [%_CKPBUF19], [%INP+14]
+sub [%_CKPBUF19], [%INP+14]
+sub [%_CKPBUF19], [%INP+14]
+sub [%_CKPBUF19], [%INP+15]
+sub [%_CKPBUF19], [%INP+15]
+sub [%_CKPBUF19], [%INP+15]
+sub [%_CKPBUF19], [%INP+15]
+sub [%_CKPBUF19], [%INP+16]
+sub [%_CKPBUF19], [%INP+16]
+sub [%_CKPBUF19], [%INP+16]
+sub [%_CKPBUF19], [%INP+16]
+sub [%_CKPBUF19], [%INP+16]
+sub [%_CKPBUF19], [%INP+16]
+sub [%_CKPBUF19], [%INP+17]
+sub [%_CKPBUF19], [%INP+17]
+sub [%_CKPBUF19], [%INP+17]
+chk-jne [%_CKPBUF19], #fffff724, %_PUT2
+jmp %_CKP20
+_CKPBUF20:
+raw #0
+_CKP20:
+sub [%_CKPBUF20], [%INP+12]
+sub [%_CKPBUF20], [%INP+13]
+sub [%_CKPBUF20], [%INP+14]
+sub [%_CKPBUF20], [%INP+14]
+sub [%_CKPBUF20], [%INP+14]
+sub [%_CKPBUF20], [%INP+14]
+sub [%_CKPBUF20], [%INP+14]
+sub [%_CKPBUF20], [%INP+14]
+sub [%_CKPBUF20], [%INP+15]
+sub [%_CKPBUF20], [%INP+15]
+sub [%_CKPBUF20], [%INP+15]
+sub [%_CKPBUF20], [%INP+15]
+sub [%_CKPBUF20], [%INP+16]
+sub [%_CKPBUF20], [%INP+16]
+sub [%_CKPBUF20], [%INP+17]
+sub [%_CKPBUF20], [%INP+17]
+sub [%_CKPBUF20], [%INP+17]
+sub [%_CKPBUF20], [%INP+17]
+sub [%_CKPBUF20], [%INP+17]
+sub [%_CKPBUF20], [%INP+17]
+chk-jne [%_CKPBUF20], #fffff7f7, %_PUT2
+jmp %_CKP21
+_CKPBUF21:
+raw #0
+_CKP21:
+sub [%_CKPBUF21], [%INP+12]
+sub [%_CKPBUF21], [%INP+12]
+sub [%_CKPBUF21], [%INP+12]
+sub [%_CKPBUF21], [%INP+12]
+sub [%_CKPBUF21], [%INP+12]
+sub [%_CKPBUF21], [%INP+12]
+sub [%_CKPBUF21], [%INP+12]
+sub [%_CKPBUF21], [%INP+13]
+sub [%_CKPBUF21], [%INP+13]
+sub [%_CKPBUF21], [%INP+13]
+sub [%_CKPBUF21], [%INP+13]
+sub [%_CKPBUF21], [%INP+13]
+sub [%_CKPBUF21], [%INP+14]
+sub [%_CKPBUF21], [%INP+14]
+sub [%_CKPBUF21], [%INP+14]
+sub [%_CKPBUF21], [%INP+15]
+sub [%_CKPBUF21], [%INP+15]
+sub [%_CKPBUF21], [%INP+15]
+sub [%_CKPBUF21], [%INP+15]
+sub [%_CKPBUF21], [%INP+16]
+sub [%_CKPBUF21], [%INP+16]
+sub [%_CKPBUF21], [%INP+16]
+sub [%_CKPBUF21], [%INP+16]
+sub [%_CKPBUF21], [%INP+16]
+sub [%_CKPBUF21], [%INP+17]
+chk-jne [%_CKPBUF21], #fffff7f7, %_PUT2
+jmp %_CKP22
+_CKPBUF22:
+raw #0
+_CKP22:
+sub [%_CKPBUF22], [%INP+12]
+sub [%_CKPBUF22], [%INP+13]
+sub [%_CKPBUF22], [%INP+13]
+sub [%_CKPBUF22], [%INP+13]
+sub [%_CKPBUF22], [%INP+13]
+sub [%_CKPBUF22], [%INP+14]
+sub [%_CKPBUF22], [%INP+14]
+sub [%_CKPBUF22], [%INP+14]
+sub [%_CKPBUF22], [%INP+14]
+sub [%_CKPBUF22], [%INP+15]
+sub [%_CKPBUF22], [%INP+15]
+sub [%_CKPBUF22], [%INP+16]
+sub [%_CKPBUF22], [%INP+17]
+chk-jne [%_CKPBUF22], #fffffbaa, %_PUT2
+jmp %_CKP23
+_CKPBUF23:
+raw #0
+_CKP23:
+sub [%_CKPBUF23], [%INP+12]
+sub [%_CKPBUF23], [%INP+12]
+sub [%_CKPBUF23], [%INP+12]
+sub [%_CKPBUF23], [%INP+12]
+sub [%_CKPBUF23], [%INP+12]
+sub [%_CKPBUF23], [%INP+12]
+sub [%_CKPBUF23], [%INP+13]
+sub [%_CKPBUF23], [%INP+13]
+sub [%_CKPBUF23], [%INP+15]
+sub [%_CKPBUF23], [%INP+15]
+sub [%_CKPBUF23], [%INP+15]
+sub [%_CKPBUF23], [%INP+15]
+sub [%_CKPBUF23], [%INP+16]
+sub [%_CKPBUF23], [%INP+16]
+sub [%_CKPBUF23], [%INP+16]
+sub [%_CKPBUF23], [%INP+16]
+sub [%_CKPBUF23], [%INP+16]
+sub [%_CKPBUF23], [%INP+16]
+sub [%_CKPBUF23], [%INP+17]
+sub [%_CKPBUF23], [%INP+17]
+chk-jne [%_CKPBUF23], #fffff908, %_PUT2
+jmp %_CKP24
+_CKPBUF24:
+raw #0
+_CKP24:
+sub [%_CKPBUF24], [%INP+19]
+sub [%_CKPBUF24], [%INP+19]
+sub [%_CKPBUF24], [%INP+19]
+sub [%_CKPBUF24], [%INP+19]
+sub [%_CKPBUF24], [%INP+19]
+sub [%_CKPBUF24], [%INP+1a]
+sub [%_CKPBUF24], [%INP+1a]
+sub [%_CKPBUF24], [%INP+1a]
+sub [%_CKPBUF24], [%INP+1a]
+sub [%_CKPBUF24], [%INP+1a]
+sub [%_CKPBUF24], [%INP+1b]
+sub [%_CKPBUF24], [%INP+1b]
+sub [%_CKPBUF24], [%INP+1c]
+sub [%_CKPBUF24], [%INP+1c]
+sub [%_CKPBUF24], [%INP+1c]
+sub [%_CKPBUF24], [%INP+1c]
+sub [%_CKPBUF24], [%INP+1c]
+sub [%_CKPBUF24], [%INP+1c]
+sub [%_CKPBUF24], [%INP+1c]
+sub [%_CKPBUF24], [%INP+1d]
+sub [%_CKPBUF24], [%INP+1d]
+sub [%_CKPBUF24], [%INP+1d]
+sub [%_CKPBUF24], [%INP+1d]
+sub [%_CKPBUF24], [%INP+1d]
+sub [%_CKPBUF24], [%INP+1d]
+chk-jne [%_CKPBUF24], #fffff7a9, %_PUT2
+jmp %_CKP25
+_CKPBUF25:
+raw #0
+_CKP25:
+sub [%_CKPBUF25], [%INP+18]
+sub [%_CKPBUF25], [%INP+18]
+sub [%_CKPBUF25], [%INP+18]
+sub [%_CKPBUF25], [%INP+18]
+sub [%_CKPBUF25], [%INP+18]
+sub [%_CKPBUF25], [%INP+19]
+sub [%_CKPBUF25], [%INP+1a]
+sub [%_CKPBUF25], [%INP+1a]
+sub [%_CKPBUF25], [%INP+1a]
+sub [%_CKPBUF25], [%INP+1a]
+sub [%_CKPBUF25], [%INP+1a]
+sub [%_CKPBUF25], [%INP+1b]
+sub [%_CKPBUF25], [%INP+1b]
+sub [%_CKPBUF25], [%INP+1b]
+sub [%_CKPBUF25], [%INP+1b]
+sub [%_CKPBUF25], [%INP+1c]
+sub [%_CKPBUF25], [%INP+1c]
+sub [%_CKPBUF25], [%INP+1c]
+sub [%_CKPBUF25], [%INP+1c]
+sub [%_CKPBUF25], [%INP+1c]
+sub [%_CKPBUF25], [%INP+1c]
+sub [%_CKPBUF25], [%INP+1d]
+sub [%_CKPBUF25], [%INP+1d]
+sub [%_CKPBUF25], [%INP+1d]
+chk-jne [%_CKPBUF25], #fffff805, %_PUT2
+jmp %_CKP26
+_CKPBUF26:
+raw #0
+_CKP26:
+sub [%_CKPBUF26], [%INP+18]
+sub [%_CKPBUF26], [%INP+19]
+sub [%_CKPBUF26], [%INP+1a]
+sub [%_CKPBUF26], [%INP+1a]
+sub [%_CKPBUF26], [%INP+1a]
+sub [%_CKPBUF26], [%INP+1a]
+sub [%_CKPBUF26], [%INP+1a]
+sub [%_CKPBUF26], [%INP+1a]
+sub [%_CKPBUF26], [%INP+1b]
+sub [%_CKPBUF26], [%INP+1b]
+sub [%_CKPBUF26], [%INP+1b]
+sub [%_CKPBUF26], [%INP+1b]
+sub [%_CKPBUF26], [%INP+1c]
+sub [%_CKPBUF26], [%INP+1c]
+sub [%_CKPBUF26], [%INP+1d]
+sub [%_CKPBUF26], [%INP+1d]
+sub [%_CKPBUF26], [%INP+1d]
+sub [%_CKPBUF26], [%INP+1d]
+sub [%_CKPBUF26], [%INP+1d]
+sub [%_CKPBUF26], [%INP+1d]
+chk-jne [%_CKPBUF26], #fffffa27, %_PUT2
+jmp %_CKP27
+_CKPBUF27:
+raw #0
+_CKP27:
+sub [%_CKPBUF27], [%INP+18]
+sub [%_CKPBUF27], [%INP+18]
+sub [%_CKPBUF27], [%INP+18]
+sub [%_CKPBUF27], [%INP+18]
+sub [%_CKPBUF27], [%INP+18]
+sub [%_CKPBUF27], [%INP+18]
+sub [%_CKPBUF27], [%INP+18]
+sub [%_CKPBUF27], [%INP+19]
+sub [%_CKPBUF27], [%INP+19]
+sub [%_CKPBUF27], [%INP+19]
+sub [%_CKPBUF27], [%INP+19]
+sub [%_CKPBUF27], [%INP+19]
+sub [%_CKPBUF27], [%INP+1a]
+sub [%_CKPBUF27], [%INP+1a]
+sub [%_CKPBUF27], [%INP+1a]
+sub [%_CKPBUF27], [%INP+1b]
+sub [%_CKPBUF27], [%INP+1b]
+sub [%_CKPBUF27], [%INP+1b]
+sub [%_CKPBUF27], [%INP+1b]
+sub [%_CKPBUF27], [%INP+1c]
+sub [%_CKPBUF27], [%INP+1c]
+sub [%_CKPBUF27], [%INP+1c]
+sub [%_CKPBUF27], [%INP+1c]
+sub [%_CKPBUF27], [%INP+1c]
+sub [%_CKPBUF27], [%INP+1d]
+chk-jne [%_CKPBUF27], #fffff6f2, %_PUT2
+jmp %_CKP28
+_CKPBUF28:
+raw #0
+_CKP28:
+sub [%_CKPBUF28], [%INP+18]
+sub [%_CKPBUF28], [%INP+19]
+sub [%_CKPBUF28], [%INP+19]
+sub [%_CKPBUF28], [%INP+19]
+sub [%_CKPBUF28], [%INP+19]
+sub [%_CKPBUF28], [%INP+1a]
+sub [%_CKPBUF28], [%INP+1a]
+sub [%_CKPBUF28], [%INP+1a]
+sub [%_CKPBUF28], [%INP+1a]
+sub [%_CKPBUF28], [%INP+1b]
+sub [%_CKPBUF28], [%INP+1b]
+sub [%_CKPBUF28], [%INP+1c]
+sub [%_CKPBUF28], [%INP+1d]
+chk-jne [%_CKPBUF28], #fffffb52, %_PUT2
+jmp %_CKP29
+_CKPBUF29:
+raw #0
+_CKP29:
+sub [%_CKPBUF29], [%INP+18]
+sub [%_CKPBUF29], [%INP+18]
+sub [%_CKPBUF29], [%INP+18]
+sub [%_CKPBUF29], [%INP+18]
+sub [%_CKPBUF29], [%INP+18]
+sub [%_CKPBUF29], [%INP+18]
+sub [%_CKPBUF29], [%INP+19]
+sub [%_CKPBUF29], [%INP+19]
+sub [%_CKPBUF29], [%INP+1b]
+sub [%_CKPBUF29], [%INP+1b]
+sub [%_CKPBUF29], [%INP+1b]
+sub [%_CKPBUF29], [%INP+1b]
+sub [%_CKPBUF29], [%INP+1c]
+sub [%_CKPBUF29], [%INP+1c]
+sub [%_CKPBUF29], [%INP+1c]
+sub [%_CKPBUF29], [%INP+1c]
+sub [%_CKPBUF29], [%INP+1c]
+sub [%_CKPBUF29], [%INP+1c]
+sub [%_CKPBUF29], [%INP+1d]
+sub [%_CKPBUF29], [%INP+1d]
+chk-jne [%_CKPBUF29], #fffff93a, %_PUT2
+jmp %_CKP30
+_CKPBUF30:
+raw #0
+_CKP30:
+sub [%_CKPBUF30], [%INP+1f]
+sub [%_CKPBUF30], [%INP+1f]
+sub [%_CKPBUF30], [%INP+1f]
+sub [%_CKPBUF30], [%INP+1f]
+sub [%_CKPBUF30], [%INP+1f]
+sub [%_CKPBUF30], [%INP+20]
+sub [%_CKPBUF30], [%INP+20]
+sub [%_CKPBUF30], [%INP+20]
+sub [%_CKPBUF30], [%INP+20]
+sub [%_CKPBUF30], [%INP+20]
+sub [%_CKPBUF30], [%INP+21]
+sub [%_CKPBUF30], [%INP+21]
+sub [%_CKPBUF30], [%INP+22]
+sub [%_CKPBUF30], [%INP+22]
+sub [%_CKPBUF30], [%INP+22]
+sub [%_CKPBUF30], [%INP+22]
+sub [%_CKPBUF30], [%INP+22]
+sub [%_CKPBUF30], [%INP+22]
+sub [%_CKPBUF30], [%INP+22]
+sub [%_CKPBUF30], [%INP+23]
+sub [%_CKPBUF30], [%INP+23]
+sub [%_CKPBUF30], [%INP+23]
+sub [%_CKPBUF30], [%INP+23]
+sub [%_CKPBUF30], [%INP+23]
+sub [%_CKPBUF30], [%INP+23]
+chk-jne [%_CKPBUF30], #fffff7a7, %_PUT2
+jmp %_CKP31
+_CKPBUF31:
+raw #0
+_CKP31:
+sub [%_CKPBUF31], [%INP+1e]
+sub [%_CKPBUF31], [%INP+1e]
+sub [%_CKPBUF31], [%INP+1e]
+sub [%_CKPBUF31], [%INP+1e]
+sub [%_CKPBUF31], [%INP+1e]
+sub [%_CKPBUF31], [%INP+1f]
+sub [%_CKPBUF31], [%INP+20]
+sub [%_CKPBUF31], [%INP+20]
+sub [%_CKPBUF31], [%INP+20]
+sub [%_CKPBUF31], [%INP+20]
+sub [%_CKPBUF31], [%INP+20]
+sub [%_CKPBUF31], [%INP+21]
+sub [%_CKPBUF31], [%INP+21]
+sub [%_CKPBUF31], [%INP+21]
+sub [%_CKPBUF31], [%INP+21]
+sub [%_CKPBUF31], [%INP+22]
+sub [%_CKPBUF31], [%INP+22]
+sub [%_CKPBUF31], [%INP+22]
+sub [%_CKPBUF31], [%INP+22]
+sub [%_CKPBUF31], [%INP+22]
+sub [%_CKPBUF31], [%INP+22]
+sub [%_CKPBUF31], [%INP+23]
+sub [%_CKPBUF31], [%INP+23]
+sub [%_CKPBUF31], [%INP+23]
+chk-jne [%_CKPBUF31], #fffff789, %_PUT2
+jmp %_CKP32
+_CKPBUF32:
+raw #0
+_CKP32:
+sub [%_CKPBUF32], [%INP+1e]
+sub [%_CKPBUF32], [%INP+1f]
+sub [%_CKPBUF32], [%INP+20]
+sub [%_CKPBUF32], [%INP+20]
+sub [%_CKPBUF32], [%INP+20]
+sub [%_CKPBUF32], [%INP+20]
+sub [%_CKPBUF32], [%INP+20]
+sub [%_CKPBUF32], [%INP+20]
+sub [%_CKPBUF32], [%INP+21]
+sub [%_CKPBUF32], [%INP+21]
+sub [%_CKPBUF32], [%INP+21]
+sub [%_CKPBUF32], [%INP+21]
+sub [%_CKPBUF32], [%INP+22]
+sub [%_CKPBUF32], [%INP+22]
+sub [%_CKPBUF32], [%INP+23]
+sub [%_CKPBUF32], [%INP+23]
+sub [%_CKPBUF32], [%INP+23]
+sub [%_CKPBUF32], [%INP+23]
+sub [%_CKPBUF32], [%INP+23]
+sub [%_CKPBUF32], [%INP+23]
+chk-jne [%_CKPBUF32], #fffff8fe, %_PUT2
+jmp %_CKP33
+_CKPBUF33:
+raw #0
+_CKP33:
+sub [%_CKPBUF33], [%INP+1e]
+sub [%_CKPBUF33], [%INP+1e]
+sub [%_CKPBUF33], [%INP+1e]
+sub [%_CKPBUF33], [%INP+1e]
+sub [%_CKPBUF33], [%INP+1e]
+sub [%_CKPBUF33], [%INP+1e]
+sub [%_CKPBUF33], [%INP+1e]
+sub [%_CKPBUF33], [%INP+1f]
+sub [%_CKPBUF33], [%INP+1f]
+sub [%_CKPBUF33], [%INP+1f]
+sub [%_CKPBUF33], [%INP+1f]
+sub [%_CKPBUF33], [%INP+1f]
+sub [%_CKPBUF33], [%INP+20]
+sub [%_CKPBUF33], [%INP+20]
+sub [%_CKPBUF33], [%INP+20]
+sub [%_CKPBUF33], [%INP+21]
+sub [%_CKPBUF33], [%INP+21]
+sub [%_CKPBUF33], [%INP+21]
+sub [%_CKPBUF33], [%INP+21]
+sub [%_CKPBUF33], [%INP+22]
+sub [%_CKPBUF33], [%INP+22]
+sub [%_CKPBUF33], [%INP+22]
+sub [%_CKPBUF33], [%INP+22]
+sub [%_CKPBUF33], [%INP+22]
+sub [%_CKPBUF33], [%INP+23]
+chk-jne [%_CKPBUF33], #fffff7b6, %_PUT2
+jmp %_CKP34
+_CKPBUF34:
+raw #0
+_CKP34:
+sub [%_CKPBUF34], [%INP+1e]
+sub [%_CKPBUF34], [%INP+1f]
+sub [%_CKPBUF34], [%INP+1f]
+sub [%_CKPBUF34], [%INP+1f]
+sub [%_CKPBUF34], [%INP+1f]
+sub [%_CKPBUF34], [%INP+20]
+sub [%_CKPBUF34], [%INP+20]
+sub [%_CKPBUF34], [%INP+20]
+sub [%_CKPBUF34], [%INP+20]
+sub [%_CKPBUF34], [%INP+21]
+sub [%_CKPBUF34], [%INP+21]
+sub [%_CKPBUF34], [%INP+22]
+sub [%_CKPBUF34], [%INP+23]
+chk-jne [%_CKPBUF34], #fffffc68, %_PUT2
+jmp %_CKP35
+_CKPBUF35:
+raw #0
+_CKP35:
+sub [%_CKPBUF35], [%INP+1e]
+sub [%_CKPBUF35], [%INP+1e]
+sub [%_CKPBUF35], [%INP+1e]
+sub [%_CKPBUF35], [%INP+1e]
+sub [%_CKPBUF35], [%INP+1e]
+sub [%_CKPBUF35], [%INP+1e]
+sub [%_CKPBUF35], [%INP+1f]
+sub [%_CKPBUF35], [%INP+1f]
+sub [%_CKPBUF35], [%INP+21]
+sub [%_CKPBUF35], [%INP+21]
+sub [%_CKPBUF35], [%INP+21]
+sub [%_CKPBUF35], [%INP+21]
+sub [%_CKPBUF35], [%INP+22]
+sub [%_CKPBUF35], [%INP+22]
+sub [%_CKPBUF35], [%INP+22]
+sub [%_CKPBUF35], [%INP+22]
+sub [%_CKPBUF35], [%INP+22]
+sub [%_CKPBUF35], [%INP+22]
+sub [%_CKPBUF35], [%INP+23]
+sub [%_CKPBUF35], [%INP+23]
+chk-jne [%_CKPBUF35], #fffff860, %_PUT2
+
+jmp %_PUT1
+_STR1:
+raw #59
+raw #65
+raw #73
+raw #21
+raw #20
+raw #59
+raw #65
+raw #73
+raw #21
+raw #20
+raw #59
+raw #65
+raw #73
+raw #21
+_PUT1:
+put [%_STR1+0]
+put [%_STR1+1]
+put [%_STR1+2]
+put [%_STR1+3]
+put [%_STR1+4]
+put [%_STR1+5]
+put [%_STR1+6]
+put [%_STR1+7]
+put [%_STR1+8]
+put [%_STR1+9]
+put [%_STR1+a]
+put [%_STR1+b]
+put [%_STR1+c]
+put [%_STR1+d]
+
+jmp %END
+_STR2:
+raw #4e
+raw #6f
+raw #2e
+raw #20
+raw #4e
+raw #6f
+raw #2e
+raw #20
+raw #4e
+raw #6f
+raw #2e
+_PUT2:
+put [%_STR2+0]
+put [%_STR2+1]
+put [%_STR2+2]
+put [%_STR2+3]
+put [%_STR2+4]
+put [%_STR2+5]
+put [%_STR2+6]
+put [%_STR2+7]
+put [%_STR2+8]
+put [%_STR2+9]
+put [%_STR2+a]
+
+END:
+put #0a

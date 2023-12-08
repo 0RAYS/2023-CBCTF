@@ -1,0 +1,1662 @@
+0x0000 jmp %_PUT0
+    INP(0x3):
+0x0003 raw #0
+0x0004 raw #0
+0x0005 raw #0
+0x0006 raw #0
+0x0007 raw #0
+0x0008 raw #0
+0x0009 raw #0
+0x000a raw #0
+0x000b raw #0
+0x000c raw #0
+0x000d raw #0
+0x000e raw #0
+0x000f raw #0
+0x0010 raw #0
+0x0011 raw #0
+0x0012 raw #0
+0x0013 raw #0
+0x0014 raw #0
+0x0015 raw #0
+0x0016 raw #0
+0x0017 raw #0
+0x0018 raw #0
+0x0019 raw #0
+0x001a raw #0
+0x001b raw #0
+0x001c raw #0
+0x001d raw #0
+0x001e raw #0
+0x001f raw #0
+0x0020 raw #0
+0x0021 raw #0
+0x0022 raw #0
+0x0023 raw #0
+0x0024 raw #0
+0x0025 raw #0
+0x0026 raw #0
+    _STR0(0x27):
+0x0027 raw #4d
+0x0028 raw #69
+0x0029 raw #78
+0x002a raw #65
+0x002b raw #64
+0x002c raw #20
+0x002d raw #77
+0x002e raw #69
+0x002f raw #74
+0x0030 raw #68
+0x0031 raw #20
+0x0032 raw #73
+0x0033 raw #6f
+0x0034 raw #6d
+0x0035 raw #65
+0x0036 raw #74
+0x0037 raw #68
+0x0038 raw #69
+0x0039 raw #6e
+0x003a raw #67
+0x003b raw #20
+0x003c raw #6d
+0x003d raw #61
+0x003e raw #74
+0x003f raw #68
+0x0040 raw #20
+0x0041 raw #61
+0x0042 raw #6e
+0x0043 raw #64
+0x0044 raw #20
+0x0045 raw #73
+0x0046 raw #6f
+0x0047 raw #6d
+0x0048 raw #65
+0x0049 raw #74
+0x004a raw #68
+0x004b raw #69
+0x004c raw #6e
+0x004d raw #67
+0x004e raw #20
+0x004f raw #6d
+0x0050 raw #61
+0x0051 raw #67
+0x0052 raw #69
+0x0053 raw #63
+0x0054 raw #2e
+0x0055 raw #a
+0x0056 raw #47
+0x0057 raw #69
+0x0058 raw #6d
+0x0059 raw #6d
+0x005a raw #65
+0x005b raw #20
+0x005c raw #66
+0x005d raw #6c
+0x005e raw #61
+0x005f raw #67
+0x0060 raw #3a
+    _PUT0(0x61):
+0x0061 put [%_STR0]
+0x0064 put [%_STR0+1]
+0x0067 put [%_STR0+2]
+0x006a put [%_STR0+3]
+0x006d put [%_STR0+4]
+0x0070 put [%_STR0+5]
+0x0073 put [%_STR0+6]
+0x0076 put [%_STR0+7]
+0x0079 put [%_STR0+8]
+0x007c put [%_STR0+9]
+0x007f put [%_STR0+a]
+0x0082 put [%_STR0+b]
+0x0085 put [%_STR0+c]
+0x0088 put [%_STR0+d]
+0x008b put [%_STR0+e]
+0x008e put [%_STR0+f]
+0x0091 put [%_STR0+10]
+0x0094 put [%_STR0+11]
+0x0097 put [%_STR0+12]
+0x009a put [%_STR0+13]
+0x009d put [%_STR0+14]
+0x00a0 put [%_STR0+15]
+0x00a3 put [%_STR0+16]
+0x00a6 put [%_STR0+17]
+0x00a9 put [%_STR0+18]
+0x00ac put [%_STR0+19]
+0x00af put [%_STR0+1a]
+0x00b2 put [%_STR0+1b]
+0x00b5 put [%_STR0+1c]
+0x00b8 put [%_STR0+1d]
+0x00bb put [%_STR0+1e]
+0x00be put [%_STR0+1f]
+0x00c1 put [%_STR0+20]
+0x00c4 put [%_STR0+21]
+0x00c7 put [%_STR0+22]
+0x00ca put [%_STR0+23]
+0x00cd put [%_STR0+24]
+0x00d0 put [%_STR0+25]
+0x00d3 put [%_STR0+26]
+0x00d6 put [%_STR0+27]
+0x00d9 put [%_STR0+28]
+0x00dc put [%_STR0+29]
+0x00df put [%_STR0+2a]
+0x00e2 put [%_STR0+2b]
+0x00e5 put [%_STR0+2c]
+0x00e8 put [%_STR0+2d]
+0x00eb put [%_STR0+2e]
+0x00ee put [%_STR0+2f]
+0x00f1 put [%_STR0+30]
+0x00f4 put [%_STR0+31]
+0x00f7 put [%_STR0+32]
+0x00fa put [%_STR0+33]
+0x00fd put [%_STR0+34]
+0x0100 put [%_STR0+35]
+0x0103 put [%_STR0+36]
+0x0106 put [%_STR0+37]
+0x0109 put [%_STR0+38]
+0x010c put [%_STR0+39]
+0x010f get [%INP]
+0x0112 get [%INP+1]
+0x0115 get [%INP+2]
+0x0118 get [%INP+3]
+0x011b get [%INP+4]
+0x011e get [%INP+5]
+0x0121 get [%INP+6]
+0x0124 get [%INP+7]
+0x0127 get [%INP+8]
+0x012a get [%INP+9]
+0x012d get [%INP+a]
+0x0130 get [%INP+b]
+0x0133 get [%INP+c]
+0x0136 get [%INP+d]
+0x0139 get [%INP+e]
+0x013c get [%INP+f]
+0x013f get [%INP+10]
+0x0142 get [%INP+11]
+0x0145 get [%INP+12]
+0x0148 get [%INP+13]
+0x014b get [%INP+14]
+0x014e get [%INP+15]
+0x0151 get [%INP+16]
+0x0154 get [%INP+17]
+0x0157 get [%INP+18]
+0x015a get [%INP+19]
+0x015d get [%INP+1a]
+0x0160 get [%INP+1b]
+0x0163 get [%INP+1c]
+0x0166 get [%INP+1d]
+0x0169 get [%INP+1e]
+0x016c get [%INP+1f]
+0x016f get [%INP+20]
+0x0172 get [%INP+21]
+0x0175 get [%INP+22]
+0x0178 get [%INP+23]
+0x017b jmp %_CKP0
+    _CKPBUF0(0x17e):
+0x017e raw #0
+    _CKP0(0x17f):
+0x017f sub [%_CKPBUF0], [%INP+1]
+0x0182 sub [%_CKPBUF0], [%INP+1]
+0x0185 sub [%_CKPBUF0], [%INP+1]
+0x0188 sub [%_CKPBUF0], [%INP+1]
+0x018b sub [%_CKPBUF0], [%INP+1]
+0x018e sub [%_CKPBUF0], [%INP+2]
+0x0191 sub [%_CKPBUF0], [%INP+2]
+0x0194 sub [%_CKPBUF0], [%INP+2]
+0x0197 sub [%_CKPBUF0], [%INP+2]
+0x019a sub [%_CKPBUF0], [%INP+2]
+0x019d sub [%_CKPBUF0], [%INP+3]
+0x01a0 sub [%_CKPBUF0], [%INP+3]
+0x01a3 sub [%_CKPBUF0], [%INP+4]
+0x01a6 sub [%_CKPBUF0], [%INP+4]
+0x01a9 sub [%_CKPBUF0], [%INP+4]
+0x01ac sub [%_CKPBUF0], [%INP+4]
+0x01af sub [%_CKPBUF0], [%INP+4]
+0x01b2 sub [%_CKPBUF0], [%INP+4]
+0x01b5 sub [%_CKPBUF0], [%INP+4]
+0x01b8 sub [%_CKPBUF0], [%INP+5]
+0x01bb sub [%_CKPBUF0], [%INP+5]
+0x01be sub [%_CKPBUF0], [%INP+5]
+0x01c1 sub [%_CKPBUF0], [%INP+5]
+0x01c4 sub [%_CKPBUF0], [%INP+5]
+0x01c7 sub [%_CKPBUF0], [%INP+5]
+0x01ca jmp #1ce
+0x01cd raw #fffff7f3
+0x01ce jmp #1d3
+0x01d1 raw #0
+0x01d2 raw #0
+0x01d3 sub [#1d1], [#1d1]
+0x01d6 sub [#1d1], [%_CKPBUF0]
+0x01d9 sub [#1d2], [#1d2]
+0x01dc sub [#1d2], [#1cd]
+0x01df sub-jle [#1d1], [#1d2], #1e5
+0x01e2 jmp %_PUT2
+0x01e5 sub [#1d2], [#1d2]
+0x01e8 sub-jle [#1d2], [#1d1], #1ee
+0x01eb jmp %_PUT2
+0x01ee jmp %_CKP1
+    _CKPBUF1(0x1f1):
+0x01f1 raw #0
+    _CKP1(0x1f2):
+0x01f2 sub [%_CKPBUF1], [%INP]
+0x01f5 sub [%_CKPBUF1], [%INP]
+0x01f8 sub [%_CKPBUF1], [%INP]
+0x01fb sub [%_CKPBUF1], [%INP]
+0x01fe sub [%_CKPBUF1], [%INP]
+0x0201 sub [%_CKPBUF1], [%INP+1]
+0x0204 sub [%_CKPBUF1], [%INP+2]
+0x0207 sub [%_CKPBUF1], [%INP+2]
+0x020a sub [%_CKPBUF1], [%INP+2]
+0x020d sub [%_CKPBUF1], [%INP+2]
+0x0210 sub [%_CKPBUF1], [%INP+2]
+0x0213 sub [%_CKPBUF1], [%INP+3]
+0x0216 sub [%_CKPBUF1], [%INP+3]
+0x0219 sub [%_CKPBUF1], [%INP+3]
+0x021c sub [%_CKPBUF1], [%INP+3]
+0x021f sub [%_CKPBUF1], [%INP+4]
+0x0222 sub [%_CKPBUF1], [%INP+4]
+0x0225 sub [%_CKPBUF1], [%INP+4]
+0x0228 sub [%_CKPBUF1], [%INP+4]
+0x022b sub [%_CKPBUF1], [%INP+4]
+0x022e sub [%_CKPBUF1], [%INP+4]
+0x0231 sub [%_CKPBUF1], [%INP+5]
+0x0234 sub [%_CKPBUF1], [%INP+5]
+0x0237 sub [%_CKPBUF1], [%INP+5]
+0x023a jmp #23e
+0x023d raw #fffff8bb
+0x023e jmp #243
+0x0241 raw #0
+0x0242 raw #0
+0x0243 sub [#241], [#241]
+0x0246 sub [#241], [%_CKPBUF1]
+0x0249 sub [#242], [#242]
+0x024c sub [#242], [#23d]
+0x024f sub-jle [#241], [#242], #255
+0x0252 jmp %_PUT2
+0x0255 sub [#242], [#242]
+0x0258 sub-jle [#242], [#241], #25e
+0x025b jmp %_PUT2
+0x025e jmp %_CKP2
+    _CKPBUF2(0x261):
+0x0261 raw #0
+    _CKP2(0x262):
+0x0262 sub [%_CKPBUF2], [%INP]
+0x0265 sub [%_CKPBUF2], [%INP+1]
+0x0268 sub [%_CKPBUF2], [%INP+2]
+0x026b sub [%_CKPBUF2], [%INP+2]
+0x026e sub [%_CKPBUF2], [%INP+2]
+0x0271 sub [%_CKPBUF2], [%INP+2]
+0x0274 sub [%_CKPBUF2], [%INP+2]
+0x0277 sub [%_CKPBUF2], [%INP+2]
+0x027a sub [%_CKPBUF2], [%INP+3]
+0x027d sub [%_CKPBUF2], [%INP+3]
+0x0280 sub [%_CKPBUF2], [%INP+3]
+0x0283 sub [%_CKPBUF2], [%INP+3]
+0x0286 sub [%_CKPBUF2], [%INP+4]
+0x0289 sub [%_CKPBUF2], [%INP+4]
+0x028c sub [%_CKPBUF2], [%INP+5]
+0x028f sub [%_CKPBUF2], [%INP+5]
+0x0292 sub [%_CKPBUF2], [%INP+5]
+0x0295 sub [%_CKPBUF2], [%INP+5]
+0x0298 sub [%_CKPBUF2], [%INP+5]
+0x029b sub [%_CKPBUF2], [%INP+5]
+0x029e jmp #2a2
+0x02a1 raw #fffff92b
+0x02a2 jmp #2a7
+0x02a5 raw #0
+0x02a6 raw #0
+0x02a7 sub [#2a5], [#2a5]
+0x02aa sub [#2a5], [%_CKPBUF2]
+0x02ad sub [#2a6], [#2a6]
+0x02b0 sub [#2a6], [#2a1]
+0x02b3 sub-jle [#2a5], [#2a6], #2b9
+0x02b6 jmp %_PUT2
+0x02b9 sub [#2a6], [#2a6]
+0x02bc sub-jle [#2a6], [#2a5], #2c2
+0x02bf jmp %_PUT2
+0x02c2 jmp %_CKP3
+    _CKPBUF3(0x2c5):
+0x02c5 raw #0
+    _CKP3(0x2c6):
+0x02c6 sub [%_CKPBUF3], [%INP]
+0x02c9 sub [%_CKPBUF3], [%INP]
+0x02cc sub [%_CKPBUF3], [%INP]
+0x02cf sub [%_CKPBUF3], [%INP]
+0x02d2 sub [%_CKPBUF3], [%INP]
+0x02d5 sub [%_CKPBUF3], [%INP]
+0x02d8 sub [%_CKPBUF3], [%INP]
+0x02db sub [%_CKPBUF3], [%INP+1]
+0x02de sub [%_CKPBUF3], [%INP+1]
+0x02e1 sub [%_CKPBUF3], [%INP+1]
+0x02e4 sub [%_CKPBUF3], [%INP+1]
+0x02e7 sub [%_CKPBUF3], [%INP+1]
+0x02ea sub [%_CKPBUF3], [%INP+2]
+0x02ed sub [%_CKPBUF3], [%INP+2]
+0x02f0 sub [%_CKPBUF3], [%INP+2]
+0x02f3 sub [%_CKPBUF3], [%INP+3]
+0x02f6 sub [%_CKPBUF3], [%INP+3]
+0x02f9 sub [%_CKPBUF3], [%INP+3]
+0x02fc sub [%_CKPBUF3], [%INP+3]
+0x02ff sub [%_CKPBUF3], [%INP+4]
+0x0302 sub [%_CKPBUF3], [%INP+4]
+0x0305 sub [%_CKPBUF3], [%INP+4]
+0x0308 sub [%_CKPBUF3], [%INP+4]
+0x030b sub [%_CKPBUF3], [%INP+4]
+0x030e sub [%_CKPBUF3], [%INP+5]
+0x0311 jmp #315
+0x0314 raw #fffff8ef
+0x0315 jmp #31a
+0x0318 raw #0
+0x0319 raw #0
+0x031a sub [#318], [#318]
+0x031d sub [#318], [%_CKPBUF3]
+0x0320 sub [#319], [#319]
+0x0323 sub [#319], [#314]
+0x0326 sub-jle [#318], [#319], #32c
+0x0329 jmp %_PUT2
+0x032c sub [#319], [#319]
+0x032f sub-jle [#319], [#318], #335
+0x0332 jmp %_PUT2
+0x0335 jmp %_CKP4
+    _CKPBUF4(0x338):
+0x0338 raw #0
+    _CKP4(0x339):
+0x0339 sub [%_CKPBUF4], [%INP]
+0x033c sub [%_CKPBUF4], [%INP+1]
+0x033f sub [%_CKPBUF4], [%INP+1]
+0x0342 sub [%_CKPBUF4], [%INP+1]
+0x0345 sub [%_CKPBUF4], [%INP+1]
+0x0348 sub [%_CKPBUF4], [%INP+2]
+0x034b sub [%_CKPBUF4], [%INP+2]
+0x034e sub [%_CKPBUF4], [%INP+2]
+0x0351 sub [%_CKPBUF4], [%INP+2]
+0x0354 sub [%_CKPBUF4], [%INP+3]
+0x0357 sub [%_CKPBUF4], [%INP+3]
+0x035a sub [%_CKPBUF4], [%INP+4]
+0x035d sub [%_CKPBUF4], [%INP+5]
+0x0360 jmp #364
+0x0363 raw #fffffc40
+0x0364 jmp #369
+0x0367 raw #0
+0x0368 raw #0
+0x0369 sub [#367], [#367]
+0x036c sub [#367], [%_CKPBUF4]
+0x036f sub [#368], [#368]
+0x0372 sub [#368], [#363]
+0x0375 sub-jle [#367], [#368], #37b
+0x0378 jmp %_PUT2
+0x037b sub [#368], [#368]
+0x037e sub-jle [#368], [#367], #384
+0x0381 jmp %_PUT2
+0x0384 jmp %_CKP5
+    _CKPBUF5(0x387):
+0x0387 raw #0
+    _CKP5(0x388):
+0x0388 sub [%_CKPBUF5], [%INP]
+0x038b sub [%_CKPBUF5], [%INP]
+0x038e sub [%_CKPBUF5], [%INP]
+0x0391 sub [%_CKPBUF5], [%INP]
+0x0394 sub [%_CKPBUF5], [%INP]
+0x0397 sub [%_CKPBUF5], [%INP]
+0x039a sub [%_CKPBUF5], [%INP+1]
+0x039d sub [%_CKPBUF5], [%INP+1]
+0x03a0 sub [%_CKPBUF5], [%INP+3]
+0x03a3 sub [%_CKPBUF5], [%INP+3]
+0x03a6 sub [%_CKPBUF5], [%INP+3]
+0x03a9 sub [%_CKPBUF5], [%INP+3]
+0x03ac sub [%_CKPBUF5], [%INP+4]
+0x03af sub [%_CKPBUF5], [%INP+4]
+0x03b2 sub [%_CKPBUF5], [%INP+4]
+0x03b5 sub [%_CKPBUF5], [%INP+4]
+0x03b8 sub [%_CKPBUF5], [%INP+4]
+0x03bb sub [%_CKPBUF5], [%INP+4]
+0x03be sub [%_CKPBUF5], [%INP+5]
+0x03c1 sub [%_CKPBUF5], [%INP+5]
+0x03c4 jmp #3c8
+0x03c7 raw #fffffa00
+0x03c8 jmp #3cd
+0x03cb raw #0
+0x03cc raw #0
+0x03cd sub [#3cb], [#3cb]
+0x03d0 sub [#3cb], [%_CKPBUF5]
+0x03d3 sub [#3cc], [#3cc]
+0x03d6 sub [#3cc], [#3c7]
+0x03d9 sub-jle [#3cb], [#3cc], #3df
+0x03dc jmp %_PUT2
+0x03df sub [#3cc], [#3cc]
+0x03e2 sub-jle [#3cc], [#3cb], #3e8
+0x03e5 jmp %_PUT2
+0x03e8 jmp %_CKP6
+    _CKPBUF6(0x3eb):
+0x03eb raw #0
+    _CKP6(0x3ec):
+0x03ec sub [%_CKPBUF6], [%INP+7]
+0x03ef sub [%_CKPBUF6], [%INP+7]
+0x03f2 sub [%_CKPBUF6], [%INP+7]
+0x03f5 sub [%_CKPBUF6], [%INP+7]
+0x03f8 sub [%_CKPBUF6], [%INP+7]
+0x03fb sub [%_CKPBUF6], [%INP+8]
+0x03fe sub [%_CKPBUF6], [%INP+8]
+0x0401 sub [%_CKPBUF6], [%INP+8]
+0x0404 sub [%_CKPBUF6], [%INP+8]
+0x0407 sub [%_CKPBUF6], [%INP+8]
+0x040a sub [%_CKPBUF6], [%INP+9]
+0x040d sub [%_CKPBUF6], [%INP+9]
+0x0410 sub [%_CKPBUF6], [%INP+a]
+0x0413 sub [%_CKPBUF6], [%INP+a]
+0x0416 sub [%_CKPBUF6], [%INP+a]
+0x0419 sub [%_CKPBUF6], [%INP+a]
+0x041c sub [%_CKPBUF6], [%INP+a]
+0x041f sub [%_CKPBUF6], [%INP+a]
+0x0422 sub [%_CKPBUF6], [%INP+a]
+0x0425 sub [%_CKPBUF6], [%INP+b]
+0x0428 sub [%_CKPBUF6], [%INP+b]
+0x042b sub [%_CKPBUF6], [%INP+b]
+0x042e sub [%_CKPBUF6], [%INP+b]
+0x0431 sub [%_CKPBUF6], [%INP+b]
+0x0434 sub [%_CKPBUF6], [%INP+b]
+0x0437 jmp #43b
+0x043a raw #fffff613
+0x043b jmp #440
+0x043e raw #0
+0x043f raw #0
+0x0440 sub [#43e], [#43e]
+0x0443 sub [#43e], [%_CKPBUF6]
+0x0446 sub [#43f], [#43f]
+0x0449 sub [#43f], [#43a]
+0x044c sub-jle [#43e], [#43f], #452
+0x044f jmp %_PUT2
+0x0452 sub [#43f], [#43f]
+0x0455 sub-jle [#43f], [#43e], #45b
+0x0458 jmp %_PUT2
+0x045b jmp %_CKP7
+    _CKPBUF7(0x45e):
+0x045e raw #0
+    _CKP7(0x45f):
+0x045f sub [%_CKPBUF7], [%INP+6]
+0x0462 sub [%_CKPBUF7], [%INP+6]
+0x0465 sub [%_CKPBUF7], [%INP+6]
+0x0468 sub [%_CKPBUF7], [%INP+6]
+0x046b sub [%_CKPBUF7], [%INP+6]
+0x046e sub [%_CKPBUF7], [%INP+7]
+0x0471 sub [%_CKPBUF7], [%INP+8]
+0x0474 sub [%_CKPBUF7], [%INP+8]
+0x0477 sub [%_CKPBUF7], [%INP+8]
+0x047a sub [%_CKPBUF7], [%INP+8]
+0x047d sub [%_CKPBUF7], [%INP+8]
+0x0480 sub [%_CKPBUF7], [%INP+9]
+0x0483 sub [%_CKPBUF7], [%INP+9]
+0x0486 sub [%_CKPBUF7], [%INP+9]
+0x0489 sub [%_CKPBUF7], [%INP+9]
+0x048c sub [%_CKPBUF7], [%INP+a]
+0x048f sub [%_CKPBUF7], [%INP+a]
+0x0492 sub [%_CKPBUF7], [%INP+a]
+0x0495 sub [%_CKPBUF7], [%INP+a]
+0x0498 sub [%_CKPBUF7], [%INP+a]
+0x049b sub [%_CKPBUF7], [%INP+a]
+0x049e sub [%_CKPBUF7], [%INP+b]
+0x04a1 sub [%_CKPBUF7], [%INP+b]
+0x04a4 sub [%_CKPBUF7], [%INP+b]
+0x04a7 jmp #4ab
+0x04aa raw #fffff71b
+0x04ab jmp #4b0
+0x04ae raw #0
+0x04af raw #0
+0x04b0 sub [#4ae], [#4ae]
+0x04b3 sub [#4ae], [%_CKPBUF7]
+0x04b6 sub [#4af], [#4af]
+0x04b9 sub [#4af], [#4aa]
+0x04bc sub-jle [#4ae], [#4af], #4c2
+0x04bf jmp %_PUT2
+0x04c2 sub [#4af], [#4af]
+0x04c5 sub-jle [#4af], [#4ae], #4cb
+0x04c8 jmp %_PUT2
+0x04cb jmp %_CKP8
+    _CKPBUF8(0x4ce):
+0x04ce raw #0
+    _CKP8(0x4cf):
+0x04cf sub [%_CKPBUF8], [%INP+6]
+0x04d2 sub [%_CKPBUF8], [%INP+7]
+0x04d5 sub [%_CKPBUF8], [%INP+8]
+0x04d8 sub [%_CKPBUF8], [%INP+8]
+0x04db sub [%_CKPBUF8], [%INP+8]
+0x04de sub [%_CKPBUF8], [%INP+8]
+0x04e1 sub [%_CKPBUF8], [%INP+8]
+0x04e4 sub [%_CKPBUF8], [%INP+8]
+0x04e7 sub [%_CKPBUF8], [%INP+9]
+0x04ea sub [%_CKPBUF8], [%INP+9]
+0x04ed sub [%_CKPBUF8], [%INP+9]
+0x04f0 sub [%_CKPBUF8], [%INP+9]
+0x04f3 sub [%_CKPBUF8], [%INP+a]
+0x04f6 sub [%_CKPBUF8], [%INP+a]
+0x04f9 sub [%_CKPBUF8], [%INP+b]
+0x04fc sub [%_CKPBUF8], [%INP+b]
+0x04ff sub [%_CKPBUF8], [%INP+b]
+0x0502 sub [%_CKPBUF8], [%INP+b]
+0x0505 sub [%_CKPBUF8], [%INP+b]
+0x0508 sub [%_CKPBUF8], [%INP+b]
+0x050b jmp #50f
+0x050e raw #fffff7f7
+0x050f jmp #514
+0x0512 raw #0
+0x0513 raw #0
+0x0514 sub [#512], [#512]
+0x0517 sub [#512], [%_CKPBUF8]
+0x051a sub [#513], [#513]
+0x051d sub [#513], [#50e]
+0x0520 sub-jle [#512], [#513], #526
+0x0523 jmp %_PUT2
+0x0526 sub [#513], [#513]
+0x0529 sub-jle [#513], [#512], #52f
+0x052c jmp %_PUT2
+0x052f jmp %_CKP9
+    _CKPBUF9(0x532):
+0x0532 raw #0
+    _CKP9(0x533):
+0x0533 sub [%_CKPBUF9], [%INP+6]
+0x0536 sub [%_CKPBUF9], [%INP+6]
+0x0539 sub [%_CKPBUF9], [%INP+6]
+0x053c sub [%_CKPBUF9], [%INP+6]
+0x053f sub [%_CKPBUF9], [%INP+6]
+0x0542 sub [%_CKPBUF9], [%INP+6]
+0x0545 sub [%_CKPBUF9], [%INP+6]
+0x0548 sub [%_CKPBUF9], [%INP+7]
+0x054b sub [%_CKPBUF9], [%INP+7]
+0x054e sub [%_CKPBUF9], [%INP+7]
+0x0551 sub [%_CKPBUF9], [%INP+7]
+0x0554 sub [%_CKPBUF9], [%INP+7]
+0x0557 sub [%_CKPBUF9], [%INP+8]
+0x055a sub [%_CKPBUF9], [%INP+8]
+0x055d sub [%_CKPBUF9], [%INP+8]
+0x0560 sub [%_CKPBUF9], [%INP+9]
+0x0563 sub [%_CKPBUF9], [%INP+9]
+0x0566 sub [%_CKPBUF9], [%INP+9]
+0x0569 sub [%_CKPBUF9], [%INP+9]
+0x056c sub [%_CKPBUF9], [%INP+a]
+0x056f sub [%_CKPBUF9], [%INP+a]
+0x0572 sub [%_CKPBUF9], [%INP+a]
+0x0575 sub [%_CKPBUF9], [%INP+a]
+0x0578 sub [%_CKPBUF9], [%INP+a]
+0x057b sub [%_CKPBUF9], [%INP+b]
+0x057e jmp #582
+0x0581 raw #fffff6fe
+0x0582 jmp #587
+0x0585 raw #0
+0x0586 raw #0
+0x0587 sub [#585], [#585]
+0x058a sub [#585], [%_CKPBUF9]
+0x058d sub [#586], [#586]
+0x0590 sub [#586], [#581]
+0x0593 sub-jle [#585], [#586], #599
+0x0596 jmp %_PUT2
+0x0599 sub [#586], [#586]
+0x059c sub-jle [#586], [#585], #5a2
+0x059f jmp %_PUT2
+0x05a2 jmp %_CKP10
+    _CKPBUF10(0x5a5):
+0x05a5 raw #0
+    _CKP10(0x5a6):
+0x05a6 sub [%_CKPBUF10], [%INP+6]
+0x05a9 sub [%_CKPBUF10], [%INP+7]
+0x05ac sub [%_CKPBUF10], [%INP+7]
+0x05af sub [%_CKPBUF10], [%INP+7]
+0x05b2 sub [%_CKPBUF10], [%INP+7]
+0x05b5 sub [%_CKPBUF10], [%INP+8]
+0x05b8 sub [%_CKPBUF10], [%INP+8]
+0x05bb sub [%_CKPBUF10], [%INP+8]
+0x05be sub [%_CKPBUF10], [%INP+8]
+0x05c1 sub [%_CKPBUF10], [%INP+9]
+0x05c4 sub [%_CKPBUF10], [%INP+9]
+0x05c7 sub [%_CKPBUF10], [%INP+a]
+0x05ca sub [%_CKPBUF10], [%INP+b]
+0x05cd jmp #5d1
+0x05d0 raw #fffffaf2
+0x05d1 jmp #5d6
+0x05d4 raw #0
+0x05d5 raw #0
+0x05d6 sub [#5d4], [#5d4]
+0x05d9 sub [#5d4], [%_CKPBUF10]
+0x05dc sub [#5d5], [#5d5]
+0x05df sub [#5d5], [#5d0]
+0x05e2 sub-jle [#5d4], [#5d5], #5e8
+0x05e5 jmp %_PUT2
+0x05e8 sub [#5d5], [#5d5]
+0x05eb sub-jle [#5d5], [#5d4], #5f1
+0x05ee jmp %_PUT2
+0x05f1 jmp %_CKP11
+    _CKPBUF11(0x5f4):
+0x05f4 raw #0
+    _CKP11(0x5f5):
+0x05f5 sub [%_CKPBUF11], [%INP+6]
+0x05f8 sub [%_CKPBUF11], [%INP+6]
+0x05fb sub [%_CKPBUF11], [%INP+6]
+0x05fe sub [%_CKPBUF11], [%INP+6]
+0x0601 sub [%_CKPBUF11], [%INP+6]
+0x0604 sub [%_CKPBUF11], [%INP+6]
+0x0607 sub [%_CKPBUF11], [%INP+7]
+0x060a sub [%_CKPBUF11], [%INP+7]
+0x060d sub [%_CKPBUF11], [%INP+9]
+0x0610 sub [%_CKPBUF11], [%INP+9]
+0x0613 sub [%_CKPBUF11], [%INP+9]
+0x0616 sub [%_CKPBUF11], [%INP+9]
+0x0619 sub [%_CKPBUF11], [%INP+a]
+0x061c sub [%_CKPBUF11], [%INP+a]
+0x061f sub [%_CKPBUF11], [%INP+a]
+0x0622 sub [%_CKPBUF11], [%INP+a]
+0x0625 sub [%_CKPBUF11], [%INP+a]
+0x0628 sub [%_CKPBUF11], [%INP+a]
+0x062b sub [%_CKPBUF11], [%INP+b]
+0x062e sub [%_CKPBUF11], [%INP+b]
+0x0631 jmp #635
+0x0634 raw #fffff8c6
+0x0635 jmp #63a
+0x0638 raw #0
+0x0639 raw #0
+0x063a sub [#638], [#638]
+0x063d sub [#638], [%_CKPBUF11]
+0x0640 sub [#639], [#639]
+0x0643 sub [#639], [#634]
+0x0646 sub-jle [#638], [#639], #64c
+0x0649 jmp %_PUT2
+0x064c sub [#639], [#639]
+0x064f sub-jle [#639], [#638], #655
+0x0652 jmp %_PUT2
+0x0655 jmp %_CKP12
+    _CKPBUF12(0x658):
+0x0658 raw #0
+    _CKP12(0x659):
+0x0659 sub [%_CKPBUF12], [%INP+d]
+0x065c sub [%_CKPBUF12], [%INP+d]
+0x065f sub [%_CKPBUF12], [%INP+d]
+0x0662 sub [%_CKPBUF12], [%INP+d]
+0x0665 sub [%_CKPBUF12], [%INP+d]
+0x0668 sub [%_CKPBUF12], [%INP+e]
+0x066b sub [%_CKPBUF12], [%INP+e]
+0x066e sub [%_CKPBUF12], [%INP+e]
+0x0671 sub [%_CKPBUF12], [%INP+e]
+0x0674 sub [%_CKPBUF12], [%INP+e]
+0x0677 sub [%_CKPBUF12], [%INP+f]
+0x067a sub [%_CKPBUF12], [%INP+f]
+0x067d sub [%_CKPBUF12], [%INP+10]
+0x0680 sub [%_CKPBUF12], [%INP+10]
+0x0683 sub [%_CKPBUF12], [%INP+10]
+0x0686 sub [%_CKPBUF12], [%INP+10]
+0x0689 sub [%_CKPBUF12], [%INP+10]
+0x068c sub [%_CKPBUF12], [%INP+10]
+0x068f sub [%_CKPBUF12], [%INP+10]
+0x0692 sub [%_CKPBUF12], [%INP+11]
+0x0695 sub [%_CKPBUF12], [%INP+11]
+0x0698 sub [%_CKPBUF12], [%INP+11]
+0x069b sub [%_CKPBUF12], [%INP+11]
+0x069e sub [%_CKPBUF12], [%INP+11]
+0x06a1 sub [%_CKPBUF12], [%INP+11]
+0x06a4 jmp #6a8
+0x06a7 raw #fffff5d3
+0x06a8 jmp #6ad
+0x06ab raw #0
+0x06ac raw #0
+0x06ad sub [#6ab], [#6ab]
+0x06b0 sub [#6ab], [%_CKPBUF12]
+0x06b3 sub [#6ac], [#6ac]
+0x06b6 sub [#6ac], [#6a7]
+0x06b9 sub-jle [#6ab], [#6ac], #6bf
+0x06bc jmp %_PUT2
+0x06bf sub [#6ac], [#6ac]
+0x06c2 sub-jle [#6ac], [#6ab], #6c8
+0x06c5 jmp %_PUT2
+0x06c8 jmp %_CKP13
+    _CKPBUF13(0x6cb):
+0x06cb raw #0
+    _CKP13(0x6cc):
+0x06cc sub [%_CKPBUF13], [%INP+c]
+0x06cf sub [%_CKPBUF13], [%INP+c]
+0x06d2 sub [%_CKPBUF13], [%INP+c]
+0x06d5 sub [%_CKPBUF13], [%INP+c]
+0x06d8 sub [%_CKPBUF13], [%INP+c]
+0x06db sub [%_CKPBUF13], [%INP+d]
+0x06de sub [%_CKPBUF13], [%INP+e]
+0x06e1 sub [%_CKPBUF13], [%INP+e]
+0x06e4 sub [%_CKPBUF13], [%INP+e]
+0x06e7 sub [%_CKPBUF13], [%INP+e]
+0x06ea sub [%_CKPBUF13], [%INP+e]
+0x06ed sub [%_CKPBUF13], [%INP+f]
+0x06f0 sub [%_CKPBUF13], [%INP+f]
+0x06f3 sub [%_CKPBUF13], [%INP+f]
+0x06f6 sub [%_CKPBUF13], [%INP+f]
+0x06f9 sub [%_CKPBUF13], [%INP+10]
+0x06fc sub [%_CKPBUF13], [%INP+10]
+0x06ff sub [%_CKPBUF13], [%INP+10]
+0x0702 sub [%_CKPBUF13], [%INP+10]
+0x0705 sub [%_CKPBUF13], [%INP+10]
+0x0708 sub [%_CKPBUF13], [%INP+10]
+0x070b sub [%_CKPBUF13], [%INP+11]
+0x070e sub [%_CKPBUF13], [%INP+11]
+0x0711 sub [%_CKPBUF13], [%INP+11]
+0x0714 jmp #718
+0x0717 raw #fffff677
+0x0718 jmp #71d
+0x071b raw #0
+0x071c raw #0
+0x071d sub [#71b], [#71b]
+0x0720 sub [#71b], [%_CKPBUF13]
+0x0723 sub [#71c], [#71c]
+0x0726 sub [#71c], [#717]
+0x0729 sub-jle [#71b], [#71c], #72f
+0x072c jmp %_PUT2
+0x072f sub [#71c], [#71c]
+0x0732 sub-jle [#71c], [#71b], #738
+0x0735 jmp %_PUT2
+0x0738 jmp %_CKP14
+    _CKPBUF14(0x73b):
+0x073b raw #0
+    _CKP14(0x73c):
+0x073c sub [%_CKPBUF14], [%INP+c]
+0x073f sub [%_CKPBUF14], [%INP+d]
+0x0742 sub [%_CKPBUF14], [%INP+e]
+0x0745 sub [%_CKPBUF14], [%INP+e]
+0x0748 sub [%_CKPBUF14], [%INP+e]
+0x074b sub [%_CKPBUF14], [%INP+e]
+0x074e sub [%_CKPBUF14], [%INP+e]
+0x0751 sub [%_CKPBUF14], [%INP+e]
+0x0754 sub [%_CKPBUF14], [%INP+f]
+0x0757 sub [%_CKPBUF14], [%INP+f]
+0x075a sub [%_CKPBUF14], [%INP+f]
+0x075d sub [%_CKPBUF14], [%INP+f]
+0x0760 sub [%_CKPBUF14], [%INP+10]
+0x0763 sub [%_CKPBUF14], [%INP+10]
+0x0766 sub [%_CKPBUF14], [%INP+11]
+0x0769 sub [%_CKPBUF14], [%INP+11]
+0x076c sub [%_CKPBUF14], [%INP+11]
+0x076f sub [%_CKPBUF14], [%INP+11]
+0x0772 sub [%_CKPBUF14], [%INP+11]
+0x0775 sub [%_CKPBUF14], [%INP+11]
+0x0778 jmp #77c
+0x077b raw #fffff837
+0x077c jmp #781
+0x077f raw #0
+0x0780 raw #0
+0x0781 sub [#77f], [#77f]
+0x0784 sub [#77f], [%_CKPBUF14]
+0x0787 sub [#780], [#780]
+0x078a sub [#780], [#77b]
+0x078d sub-jle [#77f], [#780], #793
+0x0790 jmp %_PUT2
+0x0793 sub [#780], [#780]
+0x0796 sub-jle [#780], [#77f], #79c
+0x0799 jmp %_PUT2
+0x079c jmp %_CKP15
+    _CKPBUF15(0x79f):
+0x079f raw #0
+    _CKP15(0x7a0):
+0x07a0 sub [%_CKPBUF15], [%INP+c]
+0x07a3 sub [%_CKPBUF15], [%INP+c]
+0x07a6 sub [%_CKPBUF15], [%INP+c]
+0x07a9 sub [%_CKPBUF15], [%INP+c]
+0x07ac sub [%_CKPBUF15], [%INP+c]
+0x07af sub [%_CKPBUF15], [%INP+c]
+0x07b2 sub [%_CKPBUF15], [%INP+c]
+0x07b5 sub [%_CKPBUF15], [%INP+d]
+0x07b8 sub [%_CKPBUF15], [%INP+d]
+0x07bb sub [%_CKPBUF15], [%INP+d]
+0x07be sub [%_CKPBUF15], [%INP+d]
+0x07c1 sub [%_CKPBUF15], [%INP+d]
+0x07c4 sub [%_CKPBUF15], [%INP+e]
+0x07c7 sub [%_CKPBUF15], [%INP+e]
+0x07ca sub [%_CKPBUF15], [%INP+e]
+0x07cd sub [%_CKPBUF15], [%INP+f]
+0x07d0 sub [%_CKPBUF15], [%INP+f]
+0x07d3 sub [%_CKPBUF15], [%INP+f]
+0x07d6 sub [%_CKPBUF15], [%INP+f]
+0x07d9 sub [%_CKPBUF15], [%INP+10]
+0x07dc sub [%_CKPBUF15], [%INP+10]
+0x07df sub [%_CKPBUF15], [%INP+10]
+0x07e2 sub [%_CKPBUF15], [%INP+10]
+0x07e5 sub [%_CKPBUF15], [%INP+10]
+0x07e8 sub [%_CKPBUF15], [%INP+11]
+0x07eb jmp #7ef
+0x07ee raw #fffff5cf
+0x07ef jmp #7f4
+0x07f2 raw #0
+0x07f3 raw #0
+0x07f4 sub [#7f2], [#7f2]
+0x07f7 sub [#7f2], [%_CKPBUF15]
+0x07fa sub [#7f3], [#7f3]
+0x07fd sub [#7f3], [#7ee]
+0x0800 sub-jle [#7f2], [#7f3], #806
+0x0803 jmp %_PUT2
+0x0806 sub [#7f3], [#7f3]
+0x0809 sub-jle [#7f3], [#7f2], #80f
+0x080c jmp %_PUT2
+0x080f jmp %_CKP16
+    _CKPBUF16(0x812):
+0x0812 raw #0
+    _CKP16(0x813):
+0x0813 sub [%_CKPBUF16], [%INP+c]
+0x0816 sub [%_CKPBUF16], [%INP+d]
+0x0819 sub [%_CKPBUF16], [%INP+d]
+0x081c sub [%_CKPBUF16], [%INP+d]
+0x081f sub [%_CKPBUF16], [%INP+d]
+0x0822 sub [%_CKPBUF16], [%INP+e]
+0x0825 sub [%_CKPBUF16], [%INP+e]
+0x0828 sub [%_CKPBUF16], [%INP+e]
+0x082b sub [%_CKPBUF16], [%INP+e]
+0x082e sub [%_CKPBUF16], [%INP+f]
+0x0831 sub [%_CKPBUF16], [%INP+f]
+0x0834 sub [%_CKPBUF16], [%INP+10]
+0x0837 sub [%_CKPBUF16], [%INP+11]
+0x083a jmp #83e
+0x083d raw #fffffab4
+0x083e jmp #843
+0x0841 raw #0
+0x0842 raw #0
+0x0843 sub [#841], [#841]
+0x0846 sub [#841], [%_CKPBUF16]
+0x0849 sub [#842], [#842]
+0x084c sub [#842], [#83d]
+0x084f sub-jle [#841], [#842], #855
+0x0852 jmp %_PUT2
+0x0855 sub [#842], [#842]
+0x0858 sub-jle [#842], [#841], #85e
+0x085b jmp %_PUT2
+0x085e jmp %_CKP17
+    _CKPBUF17(0x861):
+0x0861 raw #0
+    _CKP17(0x862):
+0x0862 sub [%_CKPBUF17], [%INP+c]
+0x0865 sub [%_CKPBUF17], [%INP+c]
+0x0868 sub [%_CKPBUF17], [%INP+c]
+0x086b sub [%_CKPBUF17], [%INP+c]
+0x086e sub [%_CKPBUF17], [%INP+c]
+0x0871 sub [%_CKPBUF17], [%INP+c]
+0x0874 sub [%_CKPBUF17], [%INP+d]
+0x0877 sub [%_CKPBUF17], [%INP+d]
+0x087a sub [%_CKPBUF17], [%INP+f]
+0x087d sub [%_CKPBUF17], [%INP+f]
+0x0880 sub [%_CKPBUF17], [%INP+f]
+0x0883 sub [%_CKPBUF17], [%INP+f]
+0x0886 sub [%_CKPBUF17], [%INP+10]
+0x0889 sub [%_CKPBUF17], [%INP+10]
+0x088c sub [%_CKPBUF17], [%INP+10]
+0x088f sub [%_CKPBUF17], [%INP+10]
+0x0892 sub [%_CKPBUF17], [%INP+10]
+0x0895 sub [%_CKPBUF17], [%INP+10]
+0x0898 sub [%_CKPBUF17], [%INP+11]
+0x089b sub [%_CKPBUF17], [%INP+11]
+0x089e jmp #8a2
+0x08a1 raw #fffff7dc
+0x08a2 jmp #8a7
+0x08a5 raw #0
+0x08a6 raw #0
+0x08a7 sub [#8a5], [#8a5]
+0x08aa sub [#8a5], [%_CKPBUF17]
+0x08ad sub [#8a6], [#8a6]
+0x08b0 sub [#8a6], [#8a1]
+0x08b3 sub-jle [#8a5], [#8a6], #8b9
+0x08b6 jmp %_PUT2
+0x08b9 sub [#8a6], [#8a6]
+0x08bc sub-jle [#8a6], [#8a5], #8c2
+0x08bf jmp %_PUT2
+0x08c2 jmp %_CKP18
+    _CKPBUF18(0x8c5):
+0x08c5 raw #0
+    _CKP18(0x8c6):
+0x08c6 sub [%_CKPBUF18], [%INP+13]
+0x08c9 sub [%_CKPBUF18], [%INP+13]
+0x08cc sub [%_CKPBUF18], [%INP+13]
+0x08cf sub [%_CKPBUF18], [%INP+13]
+0x08d2 sub [%_CKPBUF18], [%INP+13]
+0x08d5 sub [%_CKPBUF18], [%INP+14]
+0x08d8 sub [%_CKPBUF18], [%INP+14]
+0x08db sub [%_CKPBUF18], [%INP+14]
+0x08de sub [%_CKPBUF18], [%INP+14]
+0x08e1 sub [%_CKPBUF18], [%INP+14]
+0x08e4 sub [%_CKPBUF18], [%INP+15]
+0x08e7 sub [%_CKPBUF18], [%INP+15]
+0x08ea sub [%_CKPBUF18], [%INP+16]
+0x08ed sub [%_CKPBUF18], [%INP+16]
+0x08f0 sub [%_CKPBUF18], [%INP+16]
+0x08f3 sub [%_CKPBUF18], [%INP+16]
+0x08f6 sub [%_CKPBUF18], [%INP+16]
+0x08f9 sub [%_CKPBUF18], [%INP+16]
+0x08fc sub [%_CKPBUF18], [%INP+16]
+0x08ff sub [%_CKPBUF18], [%INP+17]
+0x0902 sub [%_CKPBUF18], [%INP+17]
+0x0905 sub [%_CKPBUF18], [%INP+17]
+0x0908 sub [%_CKPBUF18], [%INP+17]
+0x090b sub [%_CKPBUF18], [%INP+17]
+0x090e sub [%_CKPBUF18], [%INP+17]
+0x0911 jmp #915
+0x0914 raw #fffff674
+0x0915 jmp #91a
+0x0918 raw #0
+0x0919 raw #0
+0x091a sub [#918], [#918]
+0x091d sub [#918], [%_CKPBUF18]
+0x0920 sub [#919], [#919]
+0x0923 sub [#919], [#914]
+0x0926 sub-jle [#918], [#919], #92c
+0x0929 jmp %_PUT2
+0x092c sub [#919], [#919]
+0x092f sub-jle [#919], [#918], #935
+0x0932 jmp %_PUT2
+0x0935 jmp %_CKP19
+    _CKPBUF19(0x938):
+0x0938 raw #0
+    _CKP19(0x939):
+0x0939 sub [%_CKPBUF19], [%INP+12]
+0x093c sub [%_CKPBUF19], [%INP+12]
+0x093f sub [%_CKPBUF19], [%INP+12]
+0x0942 sub [%_CKPBUF19], [%INP+12]
+0x0945 sub [%_CKPBUF19], [%INP+12]
+0x0948 sub [%_CKPBUF19], [%INP+13]
+0x094b sub [%_CKPBUF19], [%INP+14]
+0x094e sub [%_CKPBUF19], [%INP+14]
+0x0951 sub [%_CKPBUF19], [%INP+14]
+0x0954 sub [%_CKPBUF19], [%INP+14]
+0x0957 sub [%_CKPBUF19], [%INP+14]
+0x095a sub [%_CKPBUF19], [%INP+15]
+0x095d sub [%_CKPBUF19], [%INP+15]
+0x0960 sub [%_CKPBUF19], [%INP+15]
+0x0963 sub [%_CKPBUF19], [%INP+15]
+0x0966 sub [%_CKPBUF19], [%INP+16]
+0x0969 sub [%_CKPBUF19], [%INP+16]
+0x096c sub [%_CKPBUF19], [%INP+16]
+0x096f sub [%_CKPBUF19], [%INP+16]
+0x0972 sub [%_CKPBUF19], [%INP+16]
+0x0975 sub [%_CKPBUF19], [%INP+16]
+0x0978 sub [%_CKPBUF19], [%INP+17]
+0x097b sub [%_CKPBUF19], [%INP+17]
+0x097e sub [%_CKPBUF19], [%INP+17]
+0x0981 jmp #985
+0x0984 raw #fffff724
+0x0985 jmp #98a
+0x0988 raw #0
+0x0989 raw #0
+0x098a sub [#988], [#988]
+0x098d sub [#988], [%_CKPBUF19]
+0x0990 sub [#989], [#989]
+0x0993 sub [#989], [#984]
+0x0996 sub-jle [#988], [#989], #99c
+0x0999 jmp %_PUT2
+0x099c sub [#989], [#989]
+0x099f sub-jle [#989], [#988], #9a5
+0x09a2 jmp %_PUT2
+0x09a5 jmp %_CKP20
+    _CKPBUF20(0x9a8):
+0x09a8 raw #0
+    _CKP20(0x9a9):
+0x09a9 sub [%_CKPBUF20], [%INP+12]
+0x09ac sub [%_CKPBUF20], [%INP+13]
+0x09af sub [%_CKPBUF20], [%INP+14]
+0x09b2 sub [%_CKPBUF20], [%INP+14]
+0x09b5 sub [%_CKPBUF20], [%INP+14]
+0x09b8 sub [%_CKPBUF20], [%INP+14]
+0x09bb sub [%_CKPBUF20], [%INP+14]
+0x09be sub [%_CKPBUF20], [%INP+14]
+0x09c1 sub [%_CKPBUF20], [%INP+15]
+0x09c4 sub [%_CKPBUF20], [%INP+15]
+0x09c7 sub [%_CKPBUF20], [%INP+15]
+0x09ca sub [%_CKPBUF20], [%INP+15]
+0x09cd sub [%_CKPBUF20], [%INP+16]
+0x09d0 sub [%_CKPBUF20], [%INP+16]
+0x09d3 sub [%_CKPBUF20], [%INP+17]
+0x09d6 sub [%_CKPBUF20], [%INP+17]
+0x09d9 sub [%_CKPBUF20], [%INP+17]
+0x09dc sub [%_CKPBUF20], [%INP+17]
+0x09df sub [%_CKPBUF20], [%INP+17]
+0x09e2 sub [%_CKPBUF20], [%INP+17]
+0x09e5 jmp #9e9
+0x09e8 raw #fffff7f7
+0x09e9 jmp #9ee
+0x09ec raw #0
+0x09ed raw #0
+0x09ee sub [#9ec], [#9ec]
+0x09f1 sub [#9ec], [%_CKPBUF20]
+0x09f4 sub [#9ed], [#9ed]
+0x09f7 sub [#9ed], [#9e8]
+0x09fa sub-jle [#9ec], [#9ed], #a00
+0x09fd jmp %_PUT2
+0x0a00 sub [#9ed], [#9ed]
+0x0a03 sub-jle [#9ed], [#9ec], #a09
+0x0a06 jmp %_PUT2
+0x0a09 jmp %_CKP21
+    _CKPBUF21(0xa0c):
+0x0a0c raw #0
+    _CKP21(0xa0d):
+0x0a0d sub [%_CKPBUF21], [%INP+12]
+0x0a10 sub [%_CKPBUF21], [%INP+12]
+0x0a13 sub [%_CKPBUF21], [%INP+12]
+0x0a16 sub [%_CKPBUF21], [%INP+12]
+0x0a19 sub [%_CKPBUF21], [%INP+12]
+0x0a1c sub [%_CKPBUF21], [%INP+12]
+0x0a1f sub [%_CKPBUF21], [%INP+12]
+0x0a22 sub [%_CKPBUF21], [%INP+13]
+0x0a25 sub [%_CKPBUF21], [%INP+13]
+0x0a28 sub [%_CKPBUF21], [%INP+13]
+0x0a2b sub [%_CKPBUF21], [%INP+13]
+0x0a2e sub [%_CKPBUF21], [%INP+13]
+0x0a31 sub [%_CKPBUF21], [%INP+14]
+0x0a34 sub [%_CKPBUF21], [%INP+14]
+0x0a37 sub [%_CKPBUF21], [%INP+14]
+0x0a3a sub [%_CKPBUF21], [%INP+15]
+0x0a3d sub [%_CKPBUF21], [%INP+15]
+0x0a40 sub [%_CKPBUF21], [%INP+15]
+0x0a43 sub [%_CKPBUF21], [%INP+15]
+0x0a46 sub [%_CKPBUF21], [%INP+16]
+0x0a49 sub [%_CKPBUF21], [%INP+16]
+0x0a4c sub [%_CKPBUF21], [%INP+16]
+0x0a4f sub [%_CKPBUF21], [%INP+16]
+0x0a52 sub [%_CKPBUF21], [%INP+16]
+0x0a55 sub [%_CKPBUF21], [%INP+17]
+0x0a58 jmp #a5c
+0x0a5b raw #fffff7f7
+0x0a5c jmp #a61
+0x0a5f raw #0
+0x0a60 raw #0
+0x0a61 sub [#a5f], [#a5f]
+0x0a64 sub [#a5f], [%_CKPBUF21]
+0x0a67 sub [#a60], [#a60]
+0x0a6a sub [#a60], [#a5b]
+0x0a6d sub-jle [#a5f], [#a60], #a73
+0x0a70 jmp %_PUT2
+0x0a73 sub [#a60], [#a60]
+0x0a76 sub-jle [#a60], [#a5f], #a7c
+0x0a79 jmp %_PUT2
+0x0a7c jmp %_CKP22
+    _CKPBUF22(0xa7f):
+0x0a7f raw #0
+    _CKP22(0xa80):
+0x0a80 sub [%_CKPBUF22], [%INP+12]
+0x0a83 sub [%_CKPBUF22], [%INP+13]
+0x0a86 sub [%_CKPBUF22], [%INP+13]
+0x0a89 sub [%_CKPBUF22], [%INP+13]
+0x0a8c sub [%_CKPBUF22], [%INP+13]
+0x0a8f sub [%_CKPBUF22], [%INP+14]
+0x0a92 sub [%_CKPBUF22], [%INP+14]
+0x0a95 sub [%_CKPBUF22], [%INP+14]
+0x0a98 sub [%_CKPBUF22], [%INP+14]
+0x0a9b sub [%_CKPBUF22], [%INP+15]
+0x0a9e sub [%_CKPBUF22], [%INP+15]
+0x0aa1 sub [%_CKPBUF22], [%INP+16]
+0x0aa4 sub [%_CKPBUF22], [%INP+17]
+0x0aa7 jmp #aab
+0x0aaa raw #fffffbaa
+0x0aab jmp #ab0
+0x0aae raw #0
+0x0aaf raw #0
+0x0ab0 sub [#aae], [#aae]
+0x0ab3 sub [#aae], [%_CKPBUF22]
+0x0ab6 sub [#aaf], [#aaf]
+0x0ab9 sub [#aaf], [#aaa]
+0x0abc sub-jle [#aae], [#aaf], #ac2
+0x0abf jmp %_PUT2
+0x0ac2 sub [#aaf], [#aaf]
+0x0ac5 sub-jle [#aaf], [#aae], #acb
+0x0ac8 jmp %_PUT2
+0x0acb jmp %_CKP23
+    _CKPBUF23(0xace):
+0x0ace raw #0
+    _CKP23(0xacf):
+0x0acf sub [%_CKPBUF23], [%INP+12]
+0x0ad2 sub [%_CKPBUF23], [%INP+12]
+0x0ad5 sub [%_CKPBUF23], [%INP+12]
+0x0ad8 sub [%_CKPBUF23], [%INP+12]
+0x0adb sub [%_CKPBUF23], [%INP+12]
+0x0ade sub [%_CKPBUF23], [%INP+12]
+0x0ae1 sub [%_CKPBUF23], [%INP+13]
+0x0ae4 sub [%_CKPBUF23], [%INP+13]
+0x0ae7 sub [%_CKPBUF23], [%INP+15]
+0x0aea sub [%_CKPBUF23], [%INP+15]
+0x0aed sub [%_CKPBUF23], [%INP+15]
+0x0af0 sub [%_CKPBUF23], [%INP+15]
+0x0af3 sub [%_CKPBUF23], [%INP+16]
+0x0af6 sub [%_CKPBUF23], [%INP+16]
+0x0af9 sub [%_CKPBUF23], [%INP+16]
+0x0afc sub [%_CKPBUF23], [%INP+16]
+0x0aff sub [%_CKPBUF23], [%INP+16]
+0x0b02 sub [%_CKPBUF23], [%INP+16]
+0x0b05 sub [%_CKPBUF23], [%INP+17]
+0x0b08 sub [%_CKPBUF23], [%INP+17]
+0x0b0b jmp #b0f
+0x0b0e raw #fffff908
+0x0b0f jmp #b14
+0x0b12 raw #0
+0x0b13 raw #0
+0x0b14 sub [#b12], [#b12]
+0x0b17 sub [#b12], [%_CKPBUF23]
+0x0b1a sub [#b13], [#b13]
+0x0b1d sub [#b13], [#b0e]
+0x0b20 sub-jle [#b12], [#b13], #b26
+0x0b23 jmp %_PUT2
+0x0b26 sub [#b13], [#b13]
+0x0b29 sub-jle [#b13], [#b12], #b2f
+0x0b2c jmp %_PUT2
+0x0b2f jmp %_CKP24
+    _CKPBUF24(0xb32):
+0x0b32 raw #0
+    _CKP24(0xb33):
+0x0b33 sub [%_CKPBUF24], [%INP+19]
+0x0b36 sub [%_CKPBUF24], [%INP+19]
+0x0b39 sub [%_CKPBUF24], [%INP+19]
+0x0b3c sub [%_CKPBUF24], [%INP+19]
+0x0b3f sub [%_CKPBUF24], [%INP+19]
+0x0b42 sub [%_CKPBUF24], [%INP+1a]
+0x0b45 sub [%_CKPBUF24], [%INP+1a]
+0x0b48 sub [%_CKPBUF24], [%INP+1a]
+0x0b4b sub [%_CKPBUF24], [%INP+1a]
+0x0b4e sub [%_CKPBUF24], [%INP+1a]
+0x0b51 sub [%_CKPBUF24], [%INP+1b]
+0x0b54 sub [%_CKPBUF24], [%INP+1b]
+0x0b57 sub [%_CKPBUF24], [%INP+1c]
+0x0b5a sub [%_CKPBUF24], [%INP+1c]
+0x0b5d sub [%_CKPBUF24], [%INP+1c]
+0x0b60 sub [%_CKPBUF24], [%INP+1c]
+0x0b63 sub [%_CKPBUF24], [%INP+1c]
+0x0b66 sub [%_CKPBUF24], [%INP+1c]
+0x0b69 sub [%_CKPBUF24], [%INP+1c]
+0x0b6c sub [%_CKPBUF24], [%INP+1d]
+0x0b6f sub [%_CKPBUF24], [%INP+1d]
+0x0b72 sub [%_CKPBUF24], [%INP+1d]
+0x0b75 sub [%_CKPBUF24], [%INP+1d]
+0x0b78 sub [%_CKPBUF24], [%INP+1d]
+0x0b7b sub [%_CKPBUF24], [%INP+1d]
+0x0b7e jmp #b82
+0x0b81 raw #fffff7a9
+0x0b82 jmp #b87
+0x0b85 raw #0
+0x0b86 raw #0
+0x0b87 sub [#b85], [#b85]
+0x0b8a sub [#b85], [%_CKPBUF24]
+0x0b8d sub [#b86], [#b86]
+0x0b90 sub [#b86], [#b81]
+0x0b93 sub-jle [#b85], [#b86], #b99
+0x0b96 jmp %_PUT2
+0x0b99 sub [#b86], [#b86]
+0x0b9c sub-jle [#b86], [#b85], #ba2
+0x0b9f jmp %_PUT2
+0x0ba2 jmp %_CKP25
+    _CKPBUF25(0xba5):
+0x0ba5 raw #0
+    _CKP25(0xba6):
+0x0ba6 sub [%_CKPBUF25], [%INP+18]
+0x0ba9 sub [%_CKPBUF25], [%INP+18]
+0x0bac sub [%_CKPBUF25], [%INP+18]
+0x0baf sub [%_CKPBUF25], [%INP+18]
+0x0bb2 sub [%_CKPBUF25], [%INP+18]
+0x0bb5 sub [%_CKPBUF25], [%INP+19]
+0x0bb8 sub [%_CKPBUF25], [%INP+1a]
+0x0bbb sub [%_CKPBUF25], [%INP+1a]
+0x0bbe sub [%_CKPBUF25], [%INP+1a]
+0x0bc1 sub [%_CKPBUF25], [%INP+1a]
+0x0bc4 sub [%_CKPBUF25], [%INP+1a]
+0x0bc7 sub [%_CKPBUF25], [%INP+1b]
+0x0bca sub [%_CKPBUF25], [%INP+1b]
+0x0bcd sub [%_CKPBUF25], [%INP+1b]
+0x0bd0 sub [%_CKPBUF25], [%INP+1b]
+0x0bd3 sub [%_CKPBUF25], [%INP+1c]
+0x0bd6 sub [%_CKPBUF25], [%INP+1c]
+0x0bd9 sub [%_CKPBUF25], [%INP+1c]
+0x0bdc sub [%_CKPBUF25], [%INP+1c]
+0x0bdf sub [%_CKPBUF25], [%INP+1c]
+0x0be2 sub [%_CKPBUF25], [%INP+1c]
+0x0be5 sub [%_CKPBUF25], [%INP+1d]
+0x0be8 sub [%_CKPBUF25], [%INP+1d]
+0x0beb sub [%_CKPBUF25], [%INP+1d]
+0x0bee jmp #bf2
+0x0bf1 raw #fffff805
+0x0bf2 jmp #bf7
+0x0bf5 raw #0
+0x0bf6 raw #0
+0x0bf7 sub [#bf5], [#bf5]
+0x0bfa sub [#bf5], [%_CKPBUF25]
+0x0bfd sub [#bf6], [#bf6]
+0x0c00 sub [#bf6], [#bf1]
+0x0c03 sub-jle [#bf5], [#bf6], #c09
+0x0c06 jmp %_PUT2
+0x0c09 sub [#bf6], [#bf6]
+0x0c0c sub-jle [#bf6], [#bf5], #c12
+0x0c0f jmp %_PUT2
+0x0c12 jmp %_CKP26
+    _CKPBUF26(0xc15):
+0x0c15 raw #0
+    _CKP26(0xc16):
+0x0c16 sub [%_CKPBUF26], [%INP+18]
+0x0c19 sub [%_CKPBUF26], [%INP+19]
+0x0c1c sub [%_CKPBUF26], [%INP+1a]
+0x0c1f sub [%_CKPBUF26], [%INP+1a]
+0x0c22 sub [%_CKPBUF26], [%INP+1a]
+0x0c25 sub [%_CKPBUF26], [%INP+1a]
+0x0c28 sub [%_CKPBUF26], [%INP+1a]
+0x0c2b sub [%_CKPBUF26], [%INP+1a]
+0x0c2e sub [%_CKPBUF26], [%INP+1b]
+0x0c31 sub [%_CKPBUF26], [%INP+1b]
+0x0c34 sub [%_CKPBUF26], [%INP+1b]
+0x0c37 sub [%_CKPBUF26], [%INP+1b]
+0x0c3a sub [%_CKPBUF26], [%INP+1c]
+0x0c3d sub [%_CKPBUF26], [%INP+1c]
+0x0c40 sub [%_CKPBUF26], [%INP+1d]
+0x0c43 sub [%_CKPBUF26], [%INP+1d]
+0x0c46 sub [%_CKPBUF26], [%INP+1d]
+0x0c49 sub [%_CKPBUF26], [%INP+1d]
+0x0c4c sub [%_CKPBUF26], [%INP+1d]
+0x0c4f sub [%_CKPBUF26], [%INP+1d]
+0x0c52 jmp #c56
+0x0c55 raw #fffffa27
+0x0c56 jmp #c5b
+0x0c59 raw #0
+0x0c5a raw #0
+0x0c5b sub [#c59], [#c59]
+0x0c5e sub [#c59], [%_CKPBUF26]
+0x0c61 sub [#c5a], [#c5a]
+0x0c64 sub [#c5a], [#c55]
+0x0c67 sub-jle [#c59], [#c5a], #c6d
+0x0c6a jmp %_PUT2
+0x0c6d sub [#c5a], [#c5a]
+0x0c70 sub-jle [#c5a], [#c59], #c76
+0x0c73 jmp %_PUT2
+0x0c76 jmp %_CKP27
+    _CKPBUF27(0xc79):
+0x0c79 raw #0
+    _CKP27(0xc7a):
+0x0c7a sub [%_CKPBUF27], [%INP+18]
+0x0c7d sub [%_CKPBUF27], [%INP+18]
+0x0c80 sub [%_CKPBUF27], [%INP+18]
+0x0c83 sub [%_CKPBUF27], [%INP+18]
+0x0c86 sub [%_CKPBUF27], [%INP+18]
+0x0c89 sub [%_CKPBUF27], [%INP+18]
+0x0c8c sub [%_CKPBUF27], [%INP+18]
+0x0c8f sub [%_CKPBUF27], [%INP+19]
+0x0c92 sub [%_CKPBUF27], [%INP+19]
+0x0c95 sub [%_CKPBUF27], [%INP+19]
+0x0c98 sub [%_CKPBUF27], [%INP+19]
+0x0c9b sub [%_CKPBUF27], [%INP+19]
+0x0c9e sub [%_CKPBUF27], [%INP+1a]
+0x0ca1 sub [%_CKPBUF27], [%INP+1a]
+0x0ca4 sub [%_CKPBUF27], [%INP+1a]
+0x0ca7 sub [%_CKPBUF27], [%INP+1b]
+0x0caa sub [%_CKPBUF27], [%INP+1b]
+0x0cad sub [%_CKPBUF27], [%INP+1b]
+0x0cb0 sub [%_CKPBUF27], [%INP+1b]
+0x0cb3 sub [%_CKPBUF27], [%INP+1c]
+0x0cb6 sub [%_CKPBUF27], [%INP+1c]
+0x0cb9 sub [%_CKPBUF27], [%INP+1c]
+0x0cbc sub [%_CKPBUF27], [%INP+1c]
+0x0cbf sub [%_CKPBUF27], [%INP+1c]
+0x0cc2 sub [%_CKPBUF27], [%INP+1d]
+0x0cc5 jmp #cc9
+0x0cc8 raw #fffff6f2
+0x0cc9 jmp #cce
+0x0ccc raw #0
+0x0ccd raw #0
+0x0cce sub [#ccc], [#ccc]
+0x0cd1 sub [#ccc], [%_CKPBUF27]
+0x0cd4 sub [#ccd], [#ccd]
+0x0cd7 sub [#ccd], [#cc8]
+0x0cda sub-jle [#ccc], [#ccd], #ce0
+0x0cdd jmp %_PUT2
+0x0ce0 sub [#ccd], [#ccd]
+0x0ce3 sub-jle [#ccd], [#ccc], #ce9
+0x0ce6 jmp %_PUT2
+0x0ce9 jmp %_CKP28
+    _CKPBUF28(0xcec):
+0x0cec raw #0
+    _CKP28(0xced):
+0x0ced sub [%_CKPBUF28], [%INP+18]
+0x0cf0 sub [%_CKPBUF28], [%INP+19]
+0x0cf3 sub [%_CKPBUF28], [%INP+19]
+0x0cf6 sub [%_CKPBUF28], [%INP+19]
+0x0cf9 sub [%_CKPBUF28], [%INP+19]
+0x0cfc sub [%_CKPBUF28], [%INP+1a]
+0x0cff sub [%_CKPBUF28], [%INP+1a]
+0x0d02 sub [%_CKPBUF28], [%INP+1a]
+0x0d05 sub [%_CKPBUF28], [%INP+1a]
+0x0d08 sub [%_CKPBUF28], [%INP+1b]
+0x0d0b sub [%_CKPBUF28], [%INP+1b]
+0x0d0e sub [%_CKPBUF28], [%INP+1c]
+0x0d11 sub [%_CKPBUF28], [%INP+1d]
+0x0d14 jmp #d18
+0x0d17 raw #fffffb52
+0x0d18 jmp #d1d
+0x0d1b raw #0
+0x0d1c raw #0
+0x0d1d sub [#d1b], [#d1b]
+0x0d20 sub [#d1b], [%_CKPBUF28]
+0x0d23 sub [#d1c], [#d1c]
+0x0d26 sub [#d1c], [#d17]
+0x0d29 sub-jle [#d1b], [#d1c], #d2f
+0x0d2c jmp %_PUT2
+0x0d2f sub [#d1c], [#d1c]
+0x0d32 sub-jle [#d1c], [#d1b], #d38
+0x0d35 jmp %_PUT2
+0x0d38 jmp %_CKP29
+    _CKPBUF29(0xd3b):
+0x0d3b raw #0
+    _CKP29(0xd3c):
+0x0d3c sub [%_CKPBUF29], [%INP+18]
+0x0d3f sub [%_CKPBUF29], [%INP+18]
+0x0d42 sub [%_CKPBUF29], [%INP+18]
+0x0d45 sub [%_CKPBUF29], [%INP+18]
+0x0d48 sub [%_CKPBUF29], [%INP+18]
+0x0d4b sub [%_CKPBUF29], [%INP+18]
+0x0d4e sub [%_CKPBUF29], [%INP+19]
+0x0d51 sub [%_CKPBUF29], [%INP+19]
+0x0d54 sub [%_CKPBUF29], [%INP+1b]
+0x0d57 sub [%_CKPBUF29], [%INP+1b]
+0x0d5a sub [%_CKPBUF29], [%INP+1b]
+0x0d5d sub [%_CKPBUF29], [%INP+1b]
+0x0d60 sub [%_CKPBUF29], [%INP+1c]
+0x0d63 sub [%_CKPBUF29], [%INP+1c]
+0x0d66 sub [%_CKPBUF29], [%INP+1c]
+0x0d69 sub [%_CKPBUF29], [%INP+1c]
+0x0d6c sub [%_CKPBUF29], [%INP+1c]
+0x0d6f sub [%_CKPBUF29], [%INP+1c]
+0x0d72 sub [%_CKPBUF29], [%INP+1d]
+0x0d75 sub [%_CKPBUF29], [%INP+1d]
+0x0d78 jmp #d7c
+0x0d7b raw #fffff93a
+0x0d7c jmp #d81
+0x0d7f raw #0
+0x0d80 raw #0
+0x0d81 sub [#d7f], [#d7f]
+0x0d84 sub [#d7f], [%_CKPBUF29]
+0x0d87 sub [#d80], [#d80]
+0x0d8a sub [#d80], [#d7b]
+0x0d8d sub-jle [#d7f], [#d80], #d93
+0x0d90 jmp %_PUT2
+0x0d93 sub [#d80], [#d80]
+0x0d96 sub-jle [#d80], [#d7f], #d9c
+0x0d99 jmp %_PUT2
+0x0d9c jmp %_CKP30
+    _CKPBUF30(0xd9f):
+0x0d9f raw #0
+    _CKP30(0xda0):
+0x0da0 sub [%_CKPBUF30], [%INP+1f]
+0x0da3 sub [%_CKPBUF30], [%INP+1f]
+0x0da6 sub [%_CKPBUF30], [%INP+1f]
+0x0da9 sub [%_CKPBUF30], [%INP+1f]
+0x0dac sub [%_CKPBUF30], [%INP+1f]
+0x0daf sub [%_CKPBUF30], [%INP+20]
+0x0db2 sub [%_CKPBUF30], [%INP+20]
+0x0db5 sub [%_CKPBUF30], [%INP+20]
+0x0db8 sub [%_CKPBUF30], [%INP+20]
+0x0dbb sub [%_CKPBUF30], [%INP+20]
+0x0dbe sub [%_CKPBUF30], [%INP+21]
+0x0dc1 sub [%_CKPBUF30], [%INP+21]
+0x0dc4 sub [%_CKPBUF30], [%INP+22]
+0x0dc7 sub [%_CKPBUF30], [%INP+22]
+0x0dca sub [%_CKPBUF30], [%INP+22]
+0x0dcd sub [%_CKPBUF30], [%INP+22]
+0x0dd0 sub [%_CKPBUF30], [%INP+22]
+0x0dd3 sub [%_CKPBUF30], [%INP+22]
+0x0dd6 sub [%_CKPBUF30], [%INP+22]
+0x0dd9 sub [%_CKPBUF30], [%INP+23]
+0x0ddc sub [%_CKPBUF30], [%INP+23]
+0x0ddf sub [%_CKPBUF30], [%INP+23]
+0x0de2 sub [%_CKPBUF30], [%INP+23]
+0x0de5 sub [%_CKPBUF30], [%INP+23]
+0x0de8 sub [%_CKPBUF30], [%INP+23]
+0x0deb jmp #def
+0x0dee raw #fffff7a7
+0x0def jmp #df4
+0x0df2 raw #0
+0x0df3 raw #0
+0x0df4 sub [#df2], [#df2]
+0x0df7 sub [#df2], [%_CKPBUF30]
+0x0dfa sub [#df3], [#df3]
+0x0dfd sub [#df3], [#dee]
+0x0e00 sub-jle [#df2], [#df3], #e06
+0x0e03 jmp %_PUT2
+0x0e06 sub [#df3], [#df3]
+0x0e09 sub-jle [#df3], [#df2], #e0f
+0x0e0c jmp %_PUT2
+0x0e0f jmp %_CKP31
+    _CKPBUF31(0xe12):
+0x0e12 raw #0
+    _CKP31(0xe13):
+0x0e13 sub [%_CKPBUF31], [%INP+1e]
+0x0e16 sub [%_CKPBUF31], [%INP+1e]
+0x0e19 sub [%_CKPBUF31], [%INP+1e]
+0x0e1c sub [%_CKPBUF31], [%INP+1e]
+0x0e1f sub [%_CKPBUF31], [%INP+1e]
+0x0e22 sub [%_CKPBUF31], [%INP+1f]
+0x0e25 sub [%_CKPBUF31], [%INP+20]
+0x0e28 sub [%_CKPBUF31], [%INP+20]
+0x0e2b sub [%_CKPBUF31], [%INP+20]
+0x0e2e sub [%_CKPBUF31], [%INP+20]
+0x0e31 sub [%_CKPBUF31], [%INP+20]
+0x0e34 sub [%_CKPBUF31], [%INP+21]
+0x0e37 sub [%_CKPBUF31], [%INP+21]
+0x0e3a sub [%_CKPBUF31], [%INP+21]
+0x0e3d sub [%_CKPBUF31], [%INP+21]
+0x0e40 sub [%_CKPBUF31], [%INP+22]
+0x0e43 sub [%_CKPBUF31], [%INP+22]
+0x0e46 sub [%_CKPBUF31], [%INP+22]
+0x0e49 sub [%_CKPBUF31], [%INP+22]
+0x0e4c sub [%_CKPBUF31], [%INP+22]
+0x0e4f sub [%_CKPBUF31], [%INP+22]
+0x0e52 sub [%_CKPBUF31], [%INP+23]
+0x0e55 sub [%_CKPBUF31], [%INP+23]
+0x0e58 sub [%_CKPBUF31], [%INP+23]
+0x0e5b jmp #e5f
+0x0e5e raw #fffff789
+0x0e5f jmp #e64
+0x0e62 raw #0
+0x0e63 raw #0
+0x0e64 sub [#e62], [#e62]
+0x0e67 sub [#e62], [%_CKPBUF31]
+0x0e6a sub [#e63], [#e63]
+0x0e6d sub [#e63], [#e5e]
+0x0e70 sub-jle [#e62], [#e63], #e76
+0x0e73 jmp %_PUT2
+0x0e76 sub [#e63], [#e63]
+0x0e79 sub-jle [#e63], [#e62], #e7f
+0x0e7c jmp %_PUT2
+0x0e7f jmp %_CKP32
+    _CKPBUF32(0xe82):
+0x0e82 raw #0
+    _CKP32(0xe83):
+0x0e83 sub [%_CKPBUF32], [%INP+1e]
+0x0e86 sub [%_CKPBUF32], [%INP+1f]
+0x0e89 sub [%_CKPBUF32], [%INP+20]
+0x0e8c sub [%_CKPBUF32], [%INP+20]
+0x0e8f sub [%_CKPBUF32], [%INP+20]
+0x0e92 sub [%_CKPBUF32], [%INP+20]
+0x0e95 sub [%_CKPBUF32], [%INP+20]
+0x0e98 sub [%_CKPBUF32], [%INP+20]
+0x0e9b sub [%_CKPBUF32], [%INP+21]
+0x0e9e sub [%_CKPBUF32], [%INP+21]
+0x0ea1 sub [%_CKPBUF32], [%INP+21]
+0x0ea4 sub [%_CKPBUF32], [%INP+21]
+0x0ea7 sub [%_CKPBUF32], [%INP+22]
+0x0eaa sub [%_CKPBUF32], [%INP+22]
+0x0ead sub [%_CKPBUF32], [%INP+23]
+0x0eb0 sub [%_CKPBUF32], [%INP+23]
+0x0eb3 sub [%_CKPBUF32], [%INP+23]
+0x0eb6 sub [%_CKPBUF32], [%INP+23]
+0x0eb9 sub [%_CKPBUF32], [%INP+23]
+0x0ebc sub [%_CKPBUF32], [%INP+23]
+0x0ebf jmp #ec3
+0x0ec2 raw #fffff8fe
+0x0ec3 jmp #ec8
+0x0ec6 raw #0
+0x0ec7 raw #0
+0x0ec8 sub [#ec6], [#ec6]
+0x0ecb sub [#ec6], [%_CKPBUF32]
+0x0ece sub [#ec7], [#ec7]
+0x0ed1 sub [#ec7], [#ec2]
+0x0ed4 sub-jle [#ec6], [#ec7], #eda
+0x0ed7 jmp %_PUT2
+0x0eda sub [#ec7], [#ec7]
+0x0edd sub-jle [#ec7], [#ec6], #ee3
+0x0ee0 jmp %_PUT2
+0x0ee3 jmp %_CKP33
+    _CKPBUF33(0xee6):
+0x0ee6 raw #0
+    _CKP33(0xee7):
+0x0ee7 sub [%_CKPBUF33], [%INP+1e]
+0x0eea sub [%_CKPBUF33], [%INP+1e]
+0x0eed sub [%_CKPBUF33], [%INP+1e]
+0x0ef0 sub [%_CKPBUF33], [%INP+1e]
+0x0ef3 sub [%_CKPBUF33], [%INP+1e]
+0x0ef6 sub [%_CKPBUF33], [%INP+1e]
+0x0ef9 sub [%_CKPBUF33], [%INP+1e]
+0x0efc sub [%_CKPBUF33], [%INP+1f]
+0x0eff sub [%_CKPBUF33], [%INP+1f]
+0x0f02 sub [%_CKPBUF33], [%INP+1f]
+0x0f05 sub [%_CKPBUF33], [%INP+1f]
+0x0f08 sub [%_CKPBUF33], [%INP+1f]
+0x0f0b sub [%_CKPBUF33], [%INP+20]
+0x0f0e sub [%_CKPBUF33], [%INP+20]
+0x0f11 sub [%_CKPBUF33], [%INP+20]
+0x0f14 sub [%_CKPBUF33], [%INP+21]
+0x0f17 sub [%_CKPBUF33], [%INP+21]
+0x0f1a sub [%_CKPBUF33], [%INP+21]
+0x0f1d sub [%_CKPBUF33], [%INP+21]
+0x0f20 sub [%_CKPBUF33], [%INP+22]
+0x0f23 sub [%_CKPBUF33], [%INP+22]
+0x0f26 sub [%_CKPBUF33], [%INP+22]
+0x0f29 sub [%_CKPBUF33], [%INP+22]
+0x0f2c sub [%_CKPBUF33], [%INP+22]
+0x0f2f sub [%_CKPBUF33], [%INP+23]
+0x0f32 jmp #f36
+0x0f35 raw #fffff7b6
+0x0f36 jmp #f3b
+0x0f39 raw #0
+0x0f3a raw #0
+0x0f3b sub [#f39], [#f39]
+0x0f3e sub [#f39], [%_CKPBUF33]
+0x0f41 sub [#f3a], [#f3a]
+0x0f44 sub [#f3a], [#f35]
+0x0f47 sub-jle [#f39], [#f3a], #f4d
+0x0f4a jmp %_PUT2
+0x0f4d sub [#f3a], [#f3a]
+0x0f50 sub-jle [#f3a], [#f39], #f56
+0x0f53 jmp %_PUT2
+0x0f56 jmp %_CKP34
+    _CKPBUF34(0xf59):
+0x0f59 raw #0
+    _CKP34(0xf5a):
+0x0f5a sub [%_CKPBUF34], [%INP+1e]
+0x0f5d sub [%_CKPBUF34], [%INP+1f]
+0x0f60 sub [%_CKPBUF34], [%INP+1f]
+0x0f63 sub [%_CKPBUF34], [%INP+1f]
+0x0f66 sub [%_CKPBUF34], [%INP+1f]
+0x0f69 sub [%_CKPBUF34], [%INP+20]
+0x0f6c sub [%_CKPBUF34], [%INP+20]
+0x0f6f sub [%_CKPBUF34], [%INP+20]
+0x0f72 sub [%_CKPBUF34], [%INP+20]
+0x0f75 sub [%_CKPBUF34], [%INP+21]
+0x0f78 sub [%_CKPBUF34], [%INP+21]
+0x0f7b sub [%_CKPBUF34], [%INP+22]
+0x0f7e sub [%_CKPBUF34], [%INP+23]
+0x0f81 jmp #f85
+0x0f84 raw #fffffc68
+0x0f85 jmp #f8a
+0x0f88 raw #0
+0x0f89 raw #0
+0x0f8a sub [#f88], [#f88]
+0x0f8d sub [#f88], [%_CKPBUF34]
+0x0f90 sub [#f89], [#f89]
+0x0f93 sub [#f89], [#f84]
+0x0f96 sub-jle [#f88], [#f89], #f9c
+0x0f99 jmp %_PUT2
+0x0f9c sub [#f89], [#f89]
+0x0f9f sub-jle [#f89], [#f88], #fa5
+0x0fa2 jmp %_PUT2
+0x0fa5 jmp %_CKP35
+    _CKPBUF35(0xfa8):
+0x0fa8 raw #0
+    _CKP35(0xfa9):
+0x0fa9 sub [%_CKPBUF35], [%INP+1e]
+0x0fac sub [%_CKPBUF35], [%INP+1e]
+0x0faf sub [%_CKPBUF35], [%INP+1e]
+0x0fb2 sub [%_CKPBUF35], [%INP+1e]
+0x0fb5 sub [%_CKPBUF35], [%INP+1e]
+0x0fb8 sub [%_CKPBUF35], [%INP+1e]
+0x0fbb sub [%_CKPBUF35], [%INP+1f]
+0x0fbe sub [%_CKPBUF35], [%INP+1f]
+0x0fc1 sub [%_CKPBUF35], [%INP+21]
+0x0fc4 sub [%_CKPBUF35], [%INP+21]
+0x0fc7 sub [%_CKPBUF35], [%INP+21]
+0x0fca sub [%_CKPBUF35], [%INP+21]
+0x0fcd sub [%_CKPBUF35], [%INP+22]
+0x0fd0 sub [%_CKPBUF35], [%INP+22]
+0x0fd3 sub [%_CKPBUF35], [%INP+22]
+0x0fd6 sub [%_CKPBUF35], [%INP+22]
+0x0fd9 sub [%_CKPBUF35], [%INP+22]
+0x0fdc sub [%_CKPBUF35], [%INP+22]
+0x0fdf sub [%_CKPBUF35], [%INP+23]
+0x0fe2 sub [%_CKPBUF35], [%INP+23]
+0x0fe5 jmp #fe9
+0x0fe8 raw #fffff860
+0x0fe9 jmp #fee
+0x0fec raw #0
+0x0fed raw #0
+0x0fee sub [#fec], [#fec]
+0x0ff1 sub [#fec], [%_CKPBUF35]
+0x0ff4 sub [#fed], [#fed]
+0x0ff7 sub [#fed], [#fe8]
+0x0ffa sub-jle [#fec], [#fed], #1000
+0x0ffd jmp %_PUT2
+0x1000 sub [#fed], [#fed]
+0x1003 sub-jle [#fed], [#fec], #1009
+0x1006 jmp %_PUT2
+0x1009 jmp %_PUT1
+    _STR1(0x100c):
+0x100c raw #59
+0x100d raw #65
+0x100e raw #73
+0x100f raw #21
+0x1010 raw #20
+0x1011 raw #59
+0x1012 raw #65
+0x1013 raw #73
+0x1014 raw #21
+0x1015 raw #20
+0x1016 raw #59
+0x1017 raw #65
+0x1018 raw #73
+0x1019 raw #21
+    _PUT1(0x101a):
+0x101a put [%_STR1]
+0x101d put [%_STR1+1]
+0x1020 put [%_STR1+2]
+0x1023 put [%_STR1+3]
+0x1026 put [%_STR1+4]
+0x1029 put [%_STR1+5]
+0x102c put [%_STR1+6]
+0x102f put [%_STR1+7]
+0x1032 put [%_STR1+8]
+0x1035 put [%_STR1+9]
+0x1038 put [%_STR1+a]
+0x103b put [%_STR1+b]
+0x103e put [%_STR1+c]
+0x1041 put [%_STR1+d]
+0x1044 jmp %END
+    _STR2(0x1047):
+0x1047 raw #4e
+0x1048 raw #6f
+0x1049 raw #2e
+0x104a raw #20
+0x104b raw #4e
+0x104c raw #6f
+0x104d raw #2e
+0x104e raw #20
+0x104f raw #4e
+0x1050 raw #6f
+0x1051 raw #2e
+    _PUT2(0x1052):
+0x1052 put [%_STR2]
+0x1055 put [%_STR2+1]
+0x1058 put [%_STR2+2]
+0x105b put [%_STR2+3]
+0x105e put [%_STR2+4]
+0x1061 put [%_STR2+5]
+0x1064 put [%_STR2+6]
+0x1067 put [%_STR2+7]
+0x106a put [%_STR2+8]
+0x106d put [%_STR2+9]
+0x1070 put [%_STR2+a]
+    END(0x1073):
+0x1073 jmp #1077
+0x1076 raw #a
+0x1077 put [#1076]

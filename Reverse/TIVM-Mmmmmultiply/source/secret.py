@@ -1,0 +1,1 @@
+flag_mmmmmultiply = 'CBCTF{Beat_mat_in_36_words_8a1d20fc}'

@@ -1,0 +1,827 @@
+0x0000 jmp %_PUT0
+    _STR0(0x3):
+0x0003 raw #43
+0x0004 raw #61
+0x0005 raw #6e
+0x0006 raw #20
+0x0007 raw #79
+0x0008 raw #6f
+0x0009 raw #75
+0x000a raw #20
+0x000b raw #63
+0x000c raw #61
+0x000d raw #74
+0x000e raw #63
+0x000f raw #68
+0x0010 raw #20
+0x0011 raw #6d
+0x0012 raw #65
+0x0013 raw #3f
+0x0014 raw #a
+0x0015 raw #43
+0x0016 raw #68
+0x0017 raw #65
+0x0018 raw #63
+0x0019 raw #6b
+0x001a raw #20
+0x001b raw #66
+0x001c raw #6c
+0x001d raw #61
+0x001e raw #67
+0x001f raw #20
+0x0020 raw #68
+0x0021 raw #65
+0x0022 raw #72
+0x0023 raw #65
+0x0024 raw #3a
+    _PUT0(0x25):
+0x0025 put [%_STR0]
+0x0028 put [%_STR0+1]
+0x002b put [%_STR0+2]
+0x002e put [%_STR0+3]
+0x0031 put [%_STR0+4]
+0x0034 put [%_STR0+5]
+0x0037 put [%_STR0+6]
+0x003a put [%_STR0+7]
+0x003d put [%_STR0+8]
+0x0040 put [%_STR0+9]
+0x0043 put [%_STR0+a]
+0x0046 put [%_STR0+b]
+0x0049 put [%_STR0+c]
+0x004c put [%_STR0+d]
+0x004f put [%_STR0+e]
+0x0052 put [%_STR0+f]
+0x0055 put [%_STR0+10]
+0x0058 put [%_STR0+11]
+0x005b put [%_STR0+12]
+0x005e put [%_STR0+13]
+0x0061 put [%_STR0+14]
+0x0064 put [%_STR0+15]
+0x0067 put [%_STR0+16]
+0x006a put [%_STR0+17]
+0x006d put [%_STR0+18]
+0x0070 put [%_STR0+19]
+0x0073 put [%_STR0+1a]
+0x0076 put [%_STR0+1b]
+0x0079 put [%_STR0+1c]
+0x007c put [%_STR0+1d]
+0x007f put [%_STR0+1e]
+0x0082 put [%_STR0+1f]
+0x0085 put [%_STR0+20]
+0x0088 put [%_STR0+21]
+0x008b jmp %CHK
+    BUF(0x8e):
+0x008e raw #0
+    CHK(0x8f):
+0x008f jmp %_RD0
+    _RD37(0x92):
+0x0092 jmp #96
+0x0095 raw #74
+0x0096 jmp #9b
+0x0099 raw #0
+0x009a raw #0
+0x009b sub [#99], [#99]
+0x009e sub [#99], [%BUF]
+0x00a1 sub [#9a], [#9a]
+0x00a4 sub [#9a], [#95]
+0x00a7 sub-jle [#99], [#9a], #ad
+0x00aa jmp %_PUT2
+0x00ad sub [#9a], [#9a]
+0x00b0 sub-jle [#9a], [#99], #b6
+0x00b3 jmp %_PUT2
+0x00b6 jmp %_RD38
+    _RD65(0xb9):
+0x00b9 jmp #bd
+0x00bc raw #35
+0x00bd jmp #c2
+0x00c0 raw #0
+0x00c1 raw #0
+0x00c2 sub [#c0], [#c0]
+0x00c5 sub [#c0], [%BUF]
+0x00c8 sub [#c1], [#c1]
+0x00cb sub [#c1], [#bc]
+0x00ce sub-jle [#c0], [#c1], #d4
+0x00d1 jmp %_PUT2
+0x00d4 sub [#c1], [#c1]
+0x00d7 sub-jle [#c1], [#c0], #dd
+0x00da jmp %_PUT2
+0x00dd jmp %_RD66
+    _RD21(0xe0):
+0x00e0 jmp #e4
+0x00e3 raw #65
+0x00e4 jmp #e9
+0x00e7 raw #0
+0x00e8 raw #0
+0x00e9 sub [#e7], [#e7]
+0x00ec sub [#e7], [%BUF]
+0x00ef sub [#e8], [#e8]
+0x00f2 sub [#e8], [#e3]
+0x00f5 sub-jle [#e7], [#e8], #fb
+0x00f8 jmp %_PUT2
+0x00fb sub [#e8], [#e8]
+0x00fe sub-jle [#e8], [#e7], #104
+0x0101 jmp %_PUT2
+0x0104 jmp %_RD22
+    _RD8(0x107):
+0x0107 get [%BUF]
+0x010a jmp %_RD9
+    _RD26(0x10d):
+0x010d get [%BUF]
+0x0110 jmp %_RD27
+    _RD58(0x113):
+0x0113 get [%BUF]
+0x0116 jmp %_RD59
+    _RD5(0x119):
+0x0119 jmp #11d
+0x011c raw #43
+0x011d jmp #122
+0x0120 raw #0
+0x0121 raw #0
+0x0122 sub [#120], [#120]
+0x0125 sub [#120], [%BUF]
+0x0128 sub [#121], [#121]
+0x012b sub [#121], [#11c]
+0x012e sub-jle [#120], [#121], #134
+0x0131 jmp %_PUT2
+0x0134 sub [#121], [#121]
+0x0137 sub-jle [#121], [#120], #13d
+0x013a jmp %_PUT2
+0x013d jmp %_RD6
+    _RD51(0x140):
+0x0140 jmp #144
+0x0143 raw #4d
+0x0144 jmp #149
+0x0147 raw #0
+0x0148 raw #0
+0x0149 sub [#147], [#147]
+0x014c sub [#147], [%BUF]
+0x014f sub [#148], [#148]
+0x0152 sub [#148], [#143]
+0x0155 sub-jle [#147], [#148], #15b
+0x0158 jmp %_PUT2
+0x015b sub [#148], [#148]
+0x015e sub-jle [#148], [#147], #164
+0x0161 jmp %_PUT2
+0x0164 jmp %_RD52
+    _RD53(0x167):
+0x0167 jmp #16b
+0x016a raw #5f
+0x016b jmp #170
+0x016e raw #0
+0x016f raw #0
+0x0170 sub [#16e], [#16e]
+0x0173 sub [#16e], [%BUF]
+0x0176 sub [#16f], [#16f]
+0x0179 sub [#16f], [#16a]
+0x017c sub-jle [#16e], [#16f], #182
+0x017f jmp %_PUT2
+0x0182 sub [#16f], [#16f]
+0x0185 sub-jle [#16f], [#16e], #18b
+0x0188 jmp %_PUT2
+0x018b jmp %_RD54
+    _RD40(0x18e):
+0x018e get [%BUF]
+0x0191 jmp %_RD41
+    _RD20(0x194):
+0x0194 get [%BUF]
+0x0197 jmp %_RD21
+    _RD35(0x19a):
+0x019a jmp #19e
+0x019d raw #5f
+0x019e jmp #1a3
+0x01a1 raw #0
+0x01a2 raw #0
+0x01a3 sub [#1a1], [#1a1]
+0x01a6 sub [#1a1], [%BUF]
+0x01a9 sub [#1a2], [#1a2]
+0x01ac sub [#1a2], [#19d]
+0x01af sub-jle [#1a1], [#1a2], #1b5
+0x01b2 jmp %_PUT2
+0x01b5 sub [#1a2], [#1a2]
+0x01b8 sub-jle [#1a2], [#1a1], #1be
+0x01bb jmp %_PUT2
+0x01be jmp %_RD36
+    _RD30(0x1c1):
+0x01c1 get [%BUF]
+0x01c4 jmp %_RD31
+    _RD63(0x1c7):
+0x01c7 jmp #1cb
+0x01ca raw #32
+0x01cb jmp #1d0
+0x01ce raw #0
+0x01cf raw #0
+0x01d0 sub [#1ce], [#1ce]
+0x01d3 sub [#1ce], [%BUF]
+0x01d6 sub [#1cf], [#1cf]
+0x01d9 sub [#1cf], [#1ca]
+0x01dc sub-jle [#1ce], [#1cf], #1e2
+0x01df jmp %_PUT2
+0x01e2 sub [#1cf], [#1cf]
+0x01e5 sub-jle [#1cf], [#1ce], #1eb
+0x01e8 jmp %_PUT2
+0x01eb jmp %_RD64
+    _RD47(0x1ee):
+0x01ee jmp #1f2
+0x01f1 raw #49
+0x01f2 jmp #1f7
+0x01f5 raw #0
+0x01f6 raw #0
+0x01f7 sub [#1f5], [#1f5]
+0x01fa sub [#1f5], [%BUF]
+0x01fd sub [#1f6], [#1f6]
+0x0200 sub [#1f6], [#1f1]
+0x0203 sub-jle [#1f5], [#1f6], #209
+0x0206 jmp %_PUT2
+0x0209 sub [#1f6], [#1f6]
+0x020c sub-jle [#1f6], [#1f5], #212
+0x020f jmp %_PUT2
+0x0212 jmp %_RD48
+    _RD11(0x215):
+0x0215 jmp #219
+0x0218 raw #7b
+0x0219 jmp #21e
+0x021c raw #0
+0x021d raw #0
+0x021e sub [#21c], [#21c]
+0x0221 sub [#21c], [%BUF]
+0x0224 sub [#21d], [#21d]
+0x0227 sub [#21d], [#218]
+0x022a sub-jle [#21c], [#21d], #230
+0x022d jmp %_PUT2
+0x0230 sub [#21d], [#21d]
+0x0233 sub-jle [#21d], [#21c], #239
+0x0236 jmp %_PUT2
+0x0239 jmp %_RD12
+    _RD46(0x23c):
+0x023c get [%BUF]
+0x023f jmp %_RD47
+    _RD27(0x242):
+0x0242 jmp #246
+0x0245 raw #65
+0x0246 jmp #24b
+0x0249 raw #0
+0x024a raw #0
+0x024b sub [#249], [#249]
+0x024e sub [#249], [%BUF]
+0x0251 sub [#24a], [#24a]
+0x0254 sub [#24a], [#245]
+0x0257 sub-jle [#249], [#24a], #25d
+0x025a jmp %_PUT2
+0x025d sub [#24a], [#24a]
+0x0260 sub-jle [#24a], [#249], #266
+0x0263 jmp %_PUT2
+0x0266 jmp %_RD28
+    _RD22(0x269):
+0x0269 get [%BUF]
+0x026c jmp %_RD23
+    _RD17(0x26f):
+0x026f jmp #273
+0x0272 raw #61
+0x0273 jmp #278
+0x0276 raw #0
+0x0277 raw #0
+0x0278 sub [#276], [#276]
+0x027b sub [#276], [%BUF]
+0x027e sub [#277], [#277]
+0x0281 sub [#277], [#272]
+0x0284 sub-jle [#276], [#277], #28a
+0x0287 jmp %_PUT2
+0x028a sub [#277], [#277]
+0x028d sub-jle [#277], [#276], #293
+0x0290 jmp %_PUT2
+0x0293 jmp %_RD18
+    _RD1(0x296):
+0x0296 jmp #29a
+0x0299 raw #43
+0x029a jmp #29f
+0x029d raw #0
+0x029e raw #0
+0x029f sub [#29d], [#29d]
+0x02a2 sub [#29d], [%BUF]
+0x02a5 sub [#29e], [#29e]
+0x02a8 sub [#29e], [#299]
+0x02ab sub-jle [#29d], [#29e], #2b1
+0x02ae jmp %_PUT2
+0x02b1 sub [#29e], [#29e]
+0x02b4 sub-jle [#29e], [#29d], #2ba
+0x02b7 jmp %_PUT2
+0x02ba jmp %_RD2
+    _RD42(0x2bd):
+0x02bd get [%BUF]
+0x02c0 jmp %_RD43
+    _RD41(0x2c3):
+0x02c3 jmp #2c7
+0x02c6 raw #65
+0x02c7 jmp #2cc
+0x02ca raw #0
+0x02cb raw #0
+0x02cc sub [#2ca], [#2ca]
+0x02cf sub [#2ca], [%BUF]
+0x02d2 sub [#2cb], [#2cb]
+0x02d5 sub [#2cb], [#2c6]
+0x02d8 sub-jle [#2ca], [#2cb], #2de
+0x02db jmp %_PUT2
+0x02de sub [#2cb], [#2cb]
+0x02e1 sub-jle [#2cb], [#2ca], #2e7
+0x02e4 jmp %_PUT2
+0x02e7 jmp %_RD42
+    _RD48(0x2ea):
+0x02ea get [%BUF]
+0x02ed jmp %_RD49
+    _RD55(0x2f0):
+0x02f0 jmp #2f4
+0x02f3 raw #63
+0x02f4 jmp #2f9
+0x02f7 raw #0
+0x02f8 raw #0
+0x02f9 sub [#2f7], [#2f7]
+0x02fc sub [#2f7], [%BUF]
+0x02ff sub [#2f8], [#2f8]
+0x0302 sub [#2f8], [#2f3]
+0x0305 sub-jle [#2f7], [#2f8], #30b
+0x0308 jmp %_PUT2
+0x030b sub [#2f8], [#2f8]
+0x030e sub-jle [#2f8], [#2f7], #314
+0x0311 jmp %_PUT2
+0x0314 jmp %_RD56
+    _RD23(0x317):
+0x0317 jmp #31b
+0x031a raw #5f
+0x031b jmp #320
+0x031e raw #0
+0x031f raw #0
+0x0320 sub [#31e], [#31e]
+0x0323 sub [#31e], [%BUF]
+0x0326 sub [#31f], [#31f]
+0x0329 sub [#31f], [#31a]
+0x032c sub-jle [#31e], [#31f], #332
+0x032f jmp %_PUT2
+0x0332 sub [#31f], [#31f]
+0x0335 sub-jle [#31f], [#31e], #33b
+0x0338 jmp %_PUT2
+0x033b jmp %_RD24
+    _RD57(0x33e):
+0x033e jmp #342
+0x0341 raw #38
+0x0342 jmp #347
+0x0345 raw #0
+0x0346 raw #0
+0x0347 sub [#345], [#345]
+0x034a sub [#345], [%BUF]
+0x034d sub [#346], [#346]
+0x0350 sub [#346], [#341]
+0x0353 sub-jle [#345], [#346], #359
+0x0356 jmp %_PUT2
+0x0359 sub [#346], [#346]
+0x035c sub-jle [#346], [#345], #362
+0x035f jmp %_PUT2
+0x0362 jmp %_RD58
+    _RD34(0x365):
+0x0365 get [%BUF]
+0x0368 jmp %_RD35
+    _RD15(0x36b):
+0x036b jmp #36f
+0x036e raw #72
+0x036f jmp #374
+0x0372 raw #0
+0x0373 raw #0
+0x0374 sub [#372], [#372]
+0x0377 sub [#372], [%BUF]
+0x037a sub [#373], [#373]
+0x037d sub [#373], [#36e]
+0x0380 sub-jle [#372], [#373], #386
+0x0383 jmp %_PUT2
+0x0386 sub [#373], [#373]
+0x0389 sub-jle [#373], [#372], #38f
+0x038c jmp %_PUT2
+0x038f jmp %_RD16
+    _RD69(0x392):
+0x0392 jmp #396
+0x0395 raw #31
+0x0396 jmp #39b
+0x0399 raw #0
+0x039a raw #0
+0x039b sub [#399], [#399]
+0x039e sub [#399], [%BUF]
+0x03a1 sub [#39a], [#39a]
+0x03a4 sub [#39a], [#395]
+0x03a7 sub-jle [#399], [#39a], #3ad
+0x03aa jmp %_PUT2
+0x03ad sub [#39a], [#39a]
+0x03b0 sub-jle [#39a], [#399], #3b6
+0x03b3 jmp %_PUT2
+0x03b6 jmp %_RD70
+    _RD31(0x3b9):
+0x03b9 jmp #3bd
+0x03bc raw #69
+0x03bd jmp #3c2
+0x03c0 raw #0
+0x03c1 raw #0
+0x03c2 sub [#3c0], [#3c0]
+0x03c5 sub [#3c0], [%BUF]
+0x03c8 sub [#3c1], [#3c1]
+0x03cb sub [#3c1], [#3bc]
+0x03ce sub-jle [#3c0], [#3c1], #3d4
+0x03d1 jmp %_PUT2
+0x03d4 sub [#3c1], [#3c1]
+0x03d7 sub-jle [#3c1], [#3c0], #3dd
+0x03da jmp %_PUT2
+0x03dd jmp %_RD32
+    _RD9(0x3e0):
+0x03e0 jmp #3e4
+0x03e3 raw #46
+0x03e4 jmp #3e9
+0x03e7 raw #0
+0x03e8 raw #0
+0x03e9 sub [#3e7], [#3e7]
+0x03ec sub [#3e7], [%BUF]
+0x03ef sub [#3e8], [#3e8]
+0x03f2 sub [#3e8], [#3e3]
+0x03f5 sub-jle [#3e7], [#3e8], #3fb
+0x03f8 jmp %_PUT2
+0x03fb sub [#3e8], [#3e8]
+0x03fe sub-jle [#3e8], [#3e7], #404
+0x0401 jmp %_PUT2
+0x0404 jmp %_RD10
+    _RD6(0x407):
+0x0407 get [%BUF]
+0x040a jmp %_RD7
+    _RD66(0x40d):
+0x040d get [%BUF]
+0x0410 jmp %_RD67
+    _RD52(0x413):
+0x0413 get [%BUF]
+0x0416 jmp %_RD53
+    _RD3(0x419):
+0x0419 jmp #41d
+0x041c raw #42
+0x041d jmp #422
+0x0420 raw #0
+0x0421 raw #0
+0x0422 sub [#420], [#420]
+0x0425 sub [#420], [%BUF]
+0x0428 sub [#421], [#421]
+0x042b sub [#421], [#41c]
+0x042e sub-jle [#420], [#421], #434
+0x0431 jmp %_PUT2
+0x0434 sub [#421], [#421]
+0x0437 sub-jle [#421], [#420], #43d
+0x043a jmp %_PUT2
+0x043d jmp %_RD4
+    _RD18(0x440):
+0x0440 get [%BUF]
+0x0443 jmp %_RD19
+    _RD2(0x446):
+0x0446 get [%BUF]
+0x0449 jmp %_RD3
+    _RD36(0x44c):
+0x044c get [%BUF]
+0x044f jmp %_RD37
+    _RD44(0x452):
+0x0452 get [%BUF]
+0x0455 jmp %_RD45
+    _RD50(0x458):
+0x0458 get [%BUF]
+0x045b jmp %_RD51
+    _RD71(0x45e):
+0x045e jmp #462
+0x0461 raw #7d
+0x0462 jmp #467
+0x0465 raw #0
+0x0466 raw #0
+0x0467 sub [#465], [#465]
+0x046a sub [#465], [%BUF]
+0x046d sub [#466], [#466]
+0x0470 sub [#466], [#461]
+0x0473 sub-jle [#465], [#466], #479
+0x0476 jmp %_PUT2
+0x0479 sub [#466], [#466]
+0x047c sub-jle [#466], [#465], #482
+0x047f jmp %_PUT2
+0x0482 jmp %_RD72
+    _RD59(0x485):
+0x0485 jmp #489
+0x0488 raw #36
+0x0489 jmp #48e
+0x048c raw #0
+0x048d raw #0
+0x048e sub [#48c], [#48c]
+0x0491 sub [#48c], [%BUF]
+0x0494 sub [#48d], [#48d]
+0x0497 sub [#48d], [#488]
+0x049a sub-jle [#48c], [#48d], #4a0
+0x049d jmp %_PUT2
+0x04a0 sub [#48d], [#48d]
+0x04a3 sub-jle [#48d], [#48c], #4a9
+0x04a6 jmp %_PUT2
+0x04a9 jmp %_RD60
+    _RD7(0x4ac):
+0x04ac jmp #4b0
+0x04af raw #54
+0x04b0 jmp #4b5
+0x04b3 raw #0
+0x04b4 raw #0
+0x04b5 sub [#4b3], [#4b3]
+0x04b8 sub [#4b3], [%BUF]
+0x04bb sub [#4b4], [#4b4]
+0x04be sub [#4b4], [#4af]
+0x04c1 sub-jle [#4b3], [#4b4], #4c7
+0x04c4 jmp %_PUT2
+0x04c7 sub [#4b4], [#4b4]
+0x04ca sub-jle [#4b4], [#4b3], #4d0
+0x04cd jmp %_PUT2
+0x04d0 jmp %_RD8
+    _RD56(0x4d3):
+0x04d3 get [%BUF]
+0x04d6 jmp %_RD57
+    _RD0(0x4d9):
+0x04d9 get [%BUF]
+0x04dc jmp %_RD1
+    _RD29(0x4df):
+0x04df jmp #4e3
+0x04e2 raw #5f
+0x04e3 jmp #4e8
+0x04e6 raw #0
+0x04e7 raw #0
+0x04e8 sub [#4e6], [#4e6]
+0x04eb sub [#4e6], [%BUF]
+0x04ee sub [#4e7], [#4e7]
+0x04f1 sub [#4e7], [#4e2]
+0x04f4 sub-jle [#4e6], [#4e7], #4fa
+0x04f7 jmp %_PUT2
+0x04fa sub [#4e7], [#4e7]
+0x04fd sub-jle [#4e7], [#4e6], #503
+0x0500 jmp %_PUT2
+0x0503 jmp %_RD30
+    _RD39(0x506):
+0x0506 jmp #50a
+0x0509 raw #68
+0x050a jmp #50f
+0x050d raw #0
+0x050e raw #0
+0x050f sub [#50d], [#50d]
+0x0512 sub [#50d], [%BUF]
+0x0515 sub [#50e], [#50e]
+0x0518 sub [#50e], [#509]
+0x051b sub-jle [#50d], [#50e], #521
+0x051e jmp %_PUT2
+0x0521 sub [#50e], [#50e]
+0x0524 sub-jle [#50e], [#50d], #52a
+0x0527 jmp %_PUT2
+0x052a jmp %_RD40
+    _RD19(0x52d):
+0x052d jmp #531
+0x0530 raw #63
+0x0531 jmp #536
+0x0534 raw #0
+0x0535 raw #0
+0x0536 sub [#534], [#534]
+0x0539 sub [#534], [%BUF]
+0x053c sub [#535], [#535]
+0x053f sub [#535], [#530]
+0x0542 sub-jle [#534], [#535], #548
+0x0545 jmp %_PUT2
+0x0548 sub [#535], [#535]
+0x054b sub-jle [#535], [#534], #551
+0x054e jmp %_PUT2
+0x0551 jmp %_RD20
+    _RD43(0x554):
+0x0554 jmp #558
+0x0557 raw #5f
+0x0558 jmp #55d
+0x055b raw #0
+0x055c raw #0
+0x055d sub [#55b], [#55b]
+0x0560 sub [#55b], [%BUF]
+0x0563 sub [#55c], [#55c]
+0x0566 sub [#55c], [#557]
+0x0569 sub-jle [#55b], [#55c], #56f
+0x056c jmp %_PUT2
+0x056f sub [#55c], [#55c]
+0x0572 sub-jle [#55c], [#55b], #578
+0x0575 jmp %_PUT2
+0x0578 jmp %_RD44
+    _RD61(0x57b):
+0x057b jmp #57f
+0x057e raw #61
+0x057f jmp #584
+0x0582 raw #0
+0x0583 raw #0
+0x0584 sub [#582], [#582]
+0x0587 sub [#582], [%BUF]
+0x058a sub [#583], [#583]
+0x058d sub [#583], [#57e]
+0x0590 sub-jle [#582], [#583], #596
+0x0593 jmp %_PUT2
+0x0596 sub [#583], [#583]
+0x0599 sub-jle [#583], [#582], #59f
+0x059c jmp %_PUT2
+0x059f jmp %_RD62
+    _RD33(0x5a2):
+0x05a2 jmp #5a6
+0x05a5 raw #6e
+0x05a6 jmp #5ab
+0x05a9 raw #0
+0x05aa raw #0
+0x05ab sub [#5a9], [#5a9]
+0x05ae sub [#5a9], [%BUF]
+0x05b1 sub [#5aa], [#5aa]
+0x05b4 sub [#5aa], [#5a5]
+0x05b7 sub-jle [#5a9], [#5aa], #5bd
+0x05ba jmp %_PUT2
+0x05bd sub [#5aa], [#5aa]
+0x05c0 sub-jle [#5aa], [#5a9], #5c6
+0x05c3 jmp %_PUT2
+0x05c6 jmp %_RD34
+    _RD38(0x5c9):
+0x05c9 get [%BUF]
+0x05cc jmp %_RD39
+    _RD10(0x5cf):
+0x05cf get [%BUF]
+0x05d2 jmp %_RD11
+    _RD12(0x5d5):
+0x05d5 get [%BUF]
+0x05d8 jmp %_RD13
+    _RD45(0x5db):
+0x05db jmp #5df
+0x05de raw #54
+0x05df jmp #5e4
+0x05e2 raw #0
+0x05e3 raw #0
+0x05e4 sub [#5e2], [#5e2]
+0x05e7 sub [#5e2], [%BUF]
+0x05ea sub [#5e3], [#5e3]
+0x05ed sub [#5e3], [#5de]
+0x05f0 sub-jle [#5e2], [#5e3], #5f6
+0x05f3 jmp %_PUT2
+0x05f6 sub [#5e3], [#5e3]
+0x05f9 sub-jle [#5e3], [#5e2], #5ff
+0x05fc jmp %_PUT2
+0x05ff jmp %_RD46
+    _RD16(0x602):
+0x0602 get [%BUF]
+0x0605 jmp %_RD17
+    _RD70(0x608):
+0x0608 get [%BUF]
+0x060b jmp %_RD71
+    _RD60(0x60e):
+0x060e get [%BUF]
+0x0611 jmp %_RD61
+    _RD32(0x614):
+0x0614 get [%BUF]
+0x0617 jmp %_RD33
+    _RD54(0x61a):
+0x061a get [%BUF]
+0x061d jmp %_RD55
+    _RD68(0x620):
+0x0620 get [%BUF]
+0x0623 jmp %_RD69
+    _RD67(0x626):
+0x0626 jmp #62a
+0x0629 raw #64
+0x062a jmp #62f
+0x062d raw #0
+0x062e raw #0
+0x062f sub [#62d], [#62d]
+0x0632 sub [#62d], [%BUF]
+0x0635 sub [#62e], [#62e]
+0x0638 sub [#62e], [#629]
+0x063b sub-jle [#62d], [#62e], #641
+0x063e jmp %_PUT2
+0x0641 sub [#62e], [#62e]
+0x0644 sub-jle [#62e], [#62d], #64a
+0x0647 jmp %_PUT2
+0x064a jmp %_RD68
+    _RD4(0x64d):
+0x064d get [%BUF]
+0x0650 jmp %_RD5
+    _RD24(0x653):
+0x0653 get [%BUF]
+0x0656 jmp %_RD25
+    _RD14(0x659):
+0x0659 get [%BUF]
+0x065c jmp %_RD15
+    _RD64(0x65f):
+0x065f get [%BUF]
+0x0662 jmp %_RD65
+    _RD28(0x665):
+0x0665 get [%BUF]
+0x0668 jmp %_RD29
+    _RD62(0x66b):
+0x066b get [%BUF]
+0x066e jmp %_RD63
+    _RD25(0x671):
+0x0671 jmp #675
+0x0674 raw #6d
+0x0675 jmp #67a
+0x0678 raw #0
+0x0679 raw #0
+0x067a sub [#678], [#678]
+0x067d sub [#678], [%BUF]
+0x0680 sub [#679], [#679]
+0x0683 sub [#679], [#674]
+0x0686 sub-jle [#678], [#679], #68c
+0x0689 jmp %_PUT2
+0x068c sub [#679], [#679]
+0x068f sub-jle [#679], [#678], #695
+0x0692 jmp %_PUT2
+0x0695 jmp %_RD26
+    _RD49(0x698):
+0x0698 jmp #69c
+0x069b raw #56
+0x069c jmp #6a1
+0x069f raw #0
+0x06a0 raw #0
+0x06a1 sub [#69f], [#69f]
+0x06a4 sub [#69f], [%BUF]
+0x06a7 sub [#6a0], [#6a0]
+0x06aa sub [#6a0], [#69b]
+0x06ad sub-jle [#69f], [#6a0], #6b3
+0x06b0 jmp %_PUT2
+0x06b3 sub [#6a0], [#6a0]
+0x06b6 sub-jle [#6a0], [#69f], #6bc
+0x06b9 jmp %_PUT2
+0x06bc jmp %_RD50
+    _RD13(0x6bf):
+0x06bf jmp #6c3
+0x06c2 raw #54
+0x06c3 jmp #6c8
+0x06c6 raw #0
+0x06c7 raw #0
+0x06c8 sub [#6c6], [#6c6]
+0x06cb sub [#6c6], [%BUF]
+0x06ce sub [#6c7], [#6c7]
+0x06d1 sub [#6c7], [#6c2]
+0x06d4 sub-jle [#6c6], [#6c7], #6da
+0x06d7 jmp %_PUT2
+0x06da sub [#6c7], [#6c7]
+0x06dd sub-jle [#6c7], [#6c6], #6e3
+0x06e0 jmp %_PUT2
+0x06e3 jmp %_RD14
+    _RD72(0x6e6):
+0x06e6 jmp %_PUT1
+    _STR1(0x6e9):
+0x06e9 raw #47
+0x06ea raw #72
+0x06eb raw #65
+0x06ec raw #61
+0x06ed raw #74
+0x06ee raw #20
+0x06ef raw #6a
+0x06f0 raw #6f
+0x06f1 raw #62
+0x06f2 raw #21
+    _PUT1(0x6f3):
+0x06f3 put [%_STR1]
+0x06f6 put [%_STR1+1]
+0x06f9 put [%_STR1+2]
+0x06fc put [%_STR1+3]
+0x06ff put [%_STR1+4]
+0x0702 put [%_STR1+5]
+0x0705 put [%_STR1+6]
+0x0708 put [%_STR1+7]
+0x070b put [%_STR1+8]
+0x070e put [%_STR1+9]
+0x0711 jmp %END
+    _STR2(0x714):
+0x0714 raw #4f
+0x0715 raw #6f
+0x0716 raw #70
+0x0717 raw #73
+0x0718 raw #2e
+0x0719 raw #20
+0x071a raw #57
+0x071b raw #68
+0x071c raw #61
+0x071d raw #74
+0x071e raw #20
+0x071f raw #61
+0x0720 raw #20
+0x0721 raw #70
+0x0722 raw #69
+0x0723 raw #74
+0x0724 raw #79
+0x0725 raw #2e
+    _PUT2(0x726):
+0x0726 put [%_STR2]
+0x0729 put [%_STR2+1]
+0x072c put [%_STR2+2]
+0x072f put [%_STR2+3]
+0x0732 put [%_STR2+4]
+0x0735 put [%_STR2+5]
+0x0738 put [%_STR2+6]
+0x073b put [%_STR2+7]
+0x073e put [%_STR2+8]
+0x0741 put [%_STR2+9]
+0x0744 put [%_STR2+a]
+0x0747 put [%_STR2+b]
+0x074a put [%_STR2+c]
+0x074d put [%_STR2+d]
+0x0750 put [%_STR2+e]
+0x0753 put [%_STR2+f]
+0x0756 put [%_STR2+10]
+0x0759 put [%_STR2+11]
+    END(0x75c):
+0x075c jmp #760
+0x075f raw #a
+0x0760 put [#75f]

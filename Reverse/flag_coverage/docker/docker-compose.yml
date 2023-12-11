@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  pwn:
+    environment:
+     - FLAG=CBCTF{887e060d-5418-4933-bc33-4bf845a63013}
+    image: jbnrz/flag_coverage
+    build: ./pwn/
+    ports:
+      - "9999:9999"

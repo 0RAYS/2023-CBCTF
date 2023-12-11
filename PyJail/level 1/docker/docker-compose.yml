@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  server:
+    build: ./server
+    image: jbnrz/jail1
+    restart: unless-stopped
+    cap_add:
+      - CAP_NET_ADMIN
+    ports:
+      - 8000:8000
+    environment:
+      - TIMEOUT=5
+      - WORKER=16
+      - FLAG=CBCTF{fake_flag}

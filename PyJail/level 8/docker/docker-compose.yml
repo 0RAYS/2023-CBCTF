@@ -1,0 +1,10 @@
+version: "3"
+services:
+  server:
+    build: .
+    image: jbnrz/jail8
+    ports:
+      - "9999:9999"
+    environment:
+      - FLAG=CBCTF{fake_flag} # flag init
+

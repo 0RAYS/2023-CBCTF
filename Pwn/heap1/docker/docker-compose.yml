@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  pwn:
+    environment:
+     - FLAG=CBCTF{fake_flag}
+    build: ./pwn/
+    ports:
+      - "9999:9999"

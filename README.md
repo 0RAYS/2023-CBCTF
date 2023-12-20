@@ -11,6 +11,7 @@
 ### [TIVM-Checkin](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/TIVM-Checkin)
 ### [TIVM-Traceme](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/TIVM-Traceme)
 ### [TIVM-Mmmmmultiply](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/TIVM-Mmmmmultiply)
+### [serial](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/serial)
 ## Pwn
 ### [heap1](https://github.com/0RAYS/2023-CBCTF/tree/main/Pwn/heap1)
 ### [reg](https://github.com/0RAYS/2023-CBCTF/tree/main/Pwn/reg)

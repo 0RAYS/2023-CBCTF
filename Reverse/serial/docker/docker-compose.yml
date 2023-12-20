@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  pwn:
+    image: jbnrz/serial
+    environment:
+     - FLAG=CBCTF{fake_flag}
+    build: ./pwn/
+    ports:
+      - "9999:9999"

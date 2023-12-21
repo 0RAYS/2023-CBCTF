@@ -1,0 +1,108 @@
+version: '3'
+
+services:
+  # raise: exec /opt/CTFd/docker-entrypoint.sh: No such File or Directory
+  # the main reason is '\r', exec 'sed -i "s/\r//g" docker-entrypoint.sh' to remove this character
+  ctfd:
+    build: .
+    user: root
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      - UPLOAD_FOLDER=/var/uploads
+      - DATABASE_URL=mysql+pymysql://bf407ae6cfdcff8e8fe62e69e36929be:ae333d93-6b73-484e-a717-79eede554886@db/hacked
+      - REDIS_URL=redis://cache:6379
+      - WORKERS=1
+      - LOG_FOLDER=/var/log/CTFd
+      - ACCESS_LOG=-
+      - ERROR_LOG=-
+      - REVERSE_PROXY=true
+      - FLAG=CBCTF{5971cc5e-36ce-4bdf-8a0d-1b71f9fb0244}
+    volumes:
+      - ./data/CTFd/logs:/var/log/CTFd
+      - ./data/CTFd/uploads:/var/uploads
+      - .:/opt/CTFd
+      - /var/run/docker.sock:/var/run/docker.sock
+    depends_on:
+      - db
+    networks:
+      default:
+      internal:
+
+  nginx:
+    image: nginx:stable
+    restart: always
+    volumes:
+      - ./conf/nginx/http.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - ctfd
+    networks:
+      default:
+      internal:
+
+  db:
+    image: mariadb:10.4.12
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=e9ec3651-5f8c-4576-b0f7-552752b3f2b5
+      - MYSQL_USER=bf407ae6cfdcff8e8fe62e69e36929be
+      - MYSQL_PASSWORD=ae333d93-6b73-484e-a717-79eede554886
+      - MYSQL_DATABASE=hacked
+    volumes:
+      - ./data/mysql:/var/lib/mysql
+    networks:
+      internal:
+    # This command is required to set important mariadb defaults
+    command: [mysqld, --character-set-server=utf8mb4, --collation-server=utf8mb4_unicode_ci, --wait_timeout=28800, --log-warnings=0]
+
+  cache:
+    image: redis:4
+    restart: always
+    volumes:
+    - ./data/redis:/data
+    networks:
+      internal:
+
+  frps:
+    image: glzjin/frp
+    restart: always
+    volumes:
+      - ./conf/frp/frps.ini:/conf/frps.ini
+    entrypoint:
+      - /usr/local/bin/frps
+      - -c
+      - /conf/frps.ini
+    networks:
+      default:
+      internal:
+      frp_connect:
+
+  frpc:
+    image: glzjin/frp
+    restart: always
+    volumes:
+      - ./conf/frp/frpc.ini:/conf/frpc.ini
+    entrypoint:
+      - /usr/local/bin/frpc
+      - -c
+      - /conf/frpc.ini
+    depends_on:
+      - frps
+    networks:
+      internal:
+      frp_containers:
+      frp_connect:
+
+networks:
+  default:
+  internal:
+    internal: true
+  frp_connect:
+    internal: true
+    attachable: true
+    driver: overlay
+  frp_containers:
+    attachable: true
+    driver: overlay
+

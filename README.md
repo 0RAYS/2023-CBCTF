@@ -1,6 +1,7 @@
 # CBCTF 2023
 ## Web
 ### [RealworldXSS](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/RealworldXSS)
+### [CNCTF2023](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/CNCTF2023)
 ## Misc
 ### [EncodeJail](https://github.com/0RAYS/2023-CBCTF/tree/main/Misc/EncodeJail)
 ### [Tupper](https://github.com/0RAYS/2023-CBCTF/tree/main/Misc/Tupper)

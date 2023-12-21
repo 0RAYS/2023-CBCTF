@@ -109,6 +109,18 @@ class ConfigList(Resource):
         responses={200: ("Success", "APISimpleSuccessResponse")},
     )
     def patch(self):
+        req = request.get_json()
+        schema = ConfigSchema()
+
+        for key, value in req.items():
+            response = schema.load({"key": key, "value": value})
+            if response.errors:
+                return {"success": False, "errors": response.errors}, 400
+            set_config(key=key, value=value)
+
+        clear_config()
+        clear_standings()
+        clear_challenges()
 
         return {"success": True}
 

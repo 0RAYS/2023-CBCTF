@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TankTrouble</title>
+
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script type="text/javascript" src="phaser.js"></script>
+    <script type="text/javascript" src="src/Plugins/phaser-virtual-joystick.js"></script>
+    <script type="text/javascript" src="src/Plugins/WeaponPlugin.js"></script>
+    <script type="text/javascript" src="src/Plugins/phaser-input.js"></script>
+    <script type="text/javascript" src="src/Plugins/HealthBar.standalone.js"></script>
+
+    <script type="text/javascript" src="src/GameObjects/otherTank.js"></script>
+    <script type="text/javascript" src="src/GameObjects/Tank.js"></script>
+
+    <script type="text/javascript" src="src/States/GameState.js"></script>
+    <script type="text/javascript" src="src/States/WelcomeState.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <style type="text/css">
+        .page{
+            width: 200px;
+            padding: 10px 20px;
+            border: 1px solid #eee;
+            position: absolute;
+            z-index: 9999;
+        }
+        .container {
+            overflow: hidden;
+        }
+        .container > .contents{
+            transition: all .5s;
+            max-height: 0;
+        }
+        .container > .unfold{
+            max-height: 150px;
+        }
+        .container > .btn{
+            color: #4C98F7;
+            cursor: pointer;
+            /*text-decoration: underline;*/
+        }
+        #flag {
+            display: inline-block;
+            margin-left: 40px;
+        }
+        .btn{
+        float: left;
+        }
+
+        .fadeOut {
+            animation: fadeOut ease 0.5s;
+         }
+         
+         .fadeIn {
+            animation: fadeIn ease 0.5s;
+         }
+         
+         @keyframes fadeOut {
+            0% { opacity: 1; }
+            100% { opacity: 0; }
+         }
+         
+         @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+         }
+    </style>
+<div class="page" style="display: none;">
+    <div class="container">
+        <div class="btn" onclick="operate(this)" unfold="0">收起</div>
+        <button id="flag">获取FLAG</button>
+        <div class="contents unfold" id="notice">
+            <div class="content fadeOut"></div>
+            <div class="content fadeOut"></div>
+            <div class="content fadeOut"><br/></div>
+            <div class="content fadeOut"></div>
+            <div class="content fadeOut"></div>
+        </div>
+    </div>
+</div>
+<div id="game"></div>
+</body>
+<script type="text/javascript">
+    alert("游玩教程 方向：↑ ↓ ← → 开火：空格");
+    function operate(btn){
+        const contentsNode = document.querySelector(".container > .contents");
+        const unfold = btn.getAttribute("unfold");
+        if(unfold && unfold==="1"){
+            btn.innerText = "收起";
+            contentsNode.classList.add("unfold");
+        }else{
+            btn.innerText = "展开";
+            contentsNode.classList.remove("unfold");
+        }
+        btn.setAttribute("unfold", unfold === "0" ? "1" : "0");
+    }
+</script>
+</html>

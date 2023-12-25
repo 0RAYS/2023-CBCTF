@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  app:
+    build: .
+    image: pankas/hackbeetl
+    ports:
+      - "8080:8088"
+    environment:
+      - FLAG=flag{xxxxx}

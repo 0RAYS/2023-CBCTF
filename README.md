@@ -2,6 +2,8 @@
 ## Web
 ### [RealworldXSS](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/RealworldXSS)
 ### [CNCTF2023](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/CNCTF2023)
+### [tankTrouble](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/tankTrouble)
+### [hackBeetl](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/hackBeetl)
 ## Misc
 ### [EncodeJail](https://github.com/0RAYS/2023-CBCTF/tree/main/Misc/EncodeJail)
 ### [Tupper](https://github.com/0RAYS/2023-CBCTF/tree/main/Misc/Tupper)
@@ -16,6 +18,8 @@
 ## Pwn
 ### [heap1](https://github.com/0RAYS/2023-CBCTF/tree/main/Pwn/heap1)
 ### [reg](https://github.com/0RAYS/2023-CBCTF/tree/main/Pwn/reg)
+### [123go](https://github.com/0RAYS/2023-CBCTF/tree/main/Pwn/123go)
+### [The Legend Of ShellCode](https://github.com/0RAYS/2023-CBCTF/tree/main/Pwn/The%20Legend%20Of%20ShellCode)
 ## Crypto
 ### [二次剩余](https://github.com/0RAYS/2023-CBCTF/tree/main/Crypto/%E4%BA%8C%E6%AC%A1%E5%89%A9%E4%BD%99)
 ### [小小数学家](https://github.com/0RAYS/2023-CBCTF/tree/main/Crypto/%E5%B0%8F%E5%B0%8F%E6%95%B0%E5%AD%A6%E5%AE%B6)

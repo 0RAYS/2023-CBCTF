@@ -11,11 +11,11 @@
 ### [美丽的危险](https://github.com/0RAYS/2023-CBCTF/tree/main/Misc/%E7%BE%8E%E4%B8%BD%E7%9A%84%E5%8D%B1%E9%99%A9)
 ## Reverse
 ### [原来你也玩原神](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/%E5%8E%9F%E6%9D%A5%E4%BD%A0%E4%B9%9F%E7%8E%A9%E5%8E%9F%E7%A5%9E)
-### [flag_coverage](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/flag_coverage)
+### [Misc](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/Misc)
 ### [TIVM-Checkin](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/TIVM-Checkin)
 ### [TIVM-Traceme](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/TIVM-Traceme)
 ### [TIVM-Mmmmmultiply](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/TIVM-Mmmmmultiply)
-### [serial](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/serial)
+### [Crypto](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/Crypto)
 ### [ezgame](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/ezgame)
 ## Pwn
 ### [heap1](https://github.com/0RAYS/2023-CBCTF/tree/main/Pwn/heap1)

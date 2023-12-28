@@ -17,6 +17,7 @@
 ### [TIVM-Mmmmmultiply](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/TIVM-Mmmmmultiply)
 ### [Crypto](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/Crypto)
 ### [ezgame](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/ezgame)
+### [Pwn](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/Pwn)
 ## Pwn
 ### [heap1](https://github.com/0RAYS/2023-CBCTF/tree/main/Pwn/heap1)
 ### [reg](https://github.com/0RAYS/2023-CBCTF/tree/main/Pwn/reg)

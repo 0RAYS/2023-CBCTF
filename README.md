@@ -4,6 +4,7 @@
 ### [CNCTF2023](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/CNCTF2023)
 ### [tankTrouble](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/tankTrouble)
 ### [hackBeetl](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/hackBeetl)
+### [BeginnerTetris](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/BeginnerTetris)
 ## Misc
 ### [EncodeJail](https://github.com/0RAYS/2023-CBCTF/tree/main/Misc/EncodeJail)
 ### [Tupper](https://github.com/0RAYS/2023-CBCTF/tree/main/Misc/Tupper)

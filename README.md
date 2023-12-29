@@ -9,7 +9,7 @@
 ### [EncodeJail](https://github.com/0RAYS/2023-CBCTF/tree/main/Misc/EncodeJail)
 ### [Tupper](https://github.com/0RAYS/2023-CBCTF/tree/main/Misc/Tupper)
 ### [Google](https://github.com/0RAYS/2023-CBCTF/tree/main/Misc/Google)
-### [美丽的危险](https://github.com/0RAYS/2023-CBCTF/tree/main/Misc/%E7%BE%8E%E4%B8%BD%E7%9A%84%E5%8D%B1%E9%99%A9)
+### [大地之母](https://github.com/0RAYS/2023-CBCTF/tree/main/Misc/%E5%A4%A7%E5%9C%B0%E4%B9%8B%E6%AF%8D)
 ### [JBN](https://github.com/0RAYS/2023-CBCTF/tree/main/Misc/JBN)
 ## Reverse
 ### [原来你也玩原神](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/%E5%8E%9F%E6%9D%A5%E4%BD%A0%E4%B9%9F%E7%8E%A9%E5%8E%9F%E7%A5%9E)

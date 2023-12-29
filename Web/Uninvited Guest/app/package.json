@@ -1,0 +1,16 @@
+{
+  "name": "policy-of-opportunity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "author": "gtg2619",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "js-yaml": "^3.14.1"
+  }
+}

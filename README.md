@@ -5,6 +5,9 @@
 ### [tankTrouble](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/tankTrouble)
 ### [hackBeetl](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/hackBeetl)
 ### [BeginnerTetris](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/BeginnerTetris)
+
+### [Uninvited Guest](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/Uninvited%20Guest)
+
 ## Misc
 ### [EncodeJail](https://github.com/0RAYS/2023-CBCTF/tree/main/Misc/EncodeJail)
 ### [Tupper](https://github.com/0RAYS/2023-CBCTF/tree/main/Misc/Tupper)

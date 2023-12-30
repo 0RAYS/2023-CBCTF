@@ -5,9 +5,7 @@
 ### [tankTrouble](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/tankTrouble)
 ### [hackBeetl](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/hackBeetl)
 ### [BeginnerTetris](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/BeginnerTetris)
-
 ### [Uninvited Guest](https://github.com/0RAYS/2023-CBCTF/tree/main/Web/Uninvited%20Guest)
-
 ## Misc
 ### [EncodeJail](https://github.com/0RAYS/2023-CBCTF/tree/main/Misc/EncodeJail)
 ### [Tupper](https://github.com/0RAYS/2023-CBCTF/tree/main/Misc/Tupper)
@@ -23,6 +21,7 @@
 ### [Crypto](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/Crypto)
 ### [ezgame](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/ezgame)
 ### [Pwn](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/Pwn)
+### [Web](https://github.com/0RAYS/2023-CBCTF/tree/main/Reverse/Web)
 ## Pwn
 ### [heap1](https://github.com/0RAYS/2023-CBCTF/tree/main/Pwn/heap1)
 ### [reg](https://github.com/0RAYS/2023-CBCTF/tree/main/Pwn/reg)

@@ -2099,6 +2099,42 @@ if __name__ == "__main__":
     print(flag)
 ```
 
+## Web
+
+Brainfuck 语言
+
+![](static/C9SXbrjwvo9fcQxecxRcAMNlnHh.png)
+
+可以使用 [https://www.nayuki.io/res/optimizing-brainfuck-compiler/bfc.py](https://www.nayuki.io/res/optimizing-brainfuck-compiler/bfc.py) 对 brainfuck 代码转成高级语言，并输出优化后的代码。
+
+```cpp
+import sys
+
+mem = [0] * 1000000
+i = 0
+
+mem[i + 2] = ord((sys.stdin.read(1) + chr(0))[0])
+mem[i + 3] = ord((sys.stdin.read(1) + chr(0))[0])
+mem[i + 4] = ord((sys.stdin.read(1) + chr(0))[0])
+mem[i + 5] = ord((sys.stdin.read(1) + chr(0))[0])
+mem[i] = mem[i] + 6
+if mem[i] != 0:
+        mem[i + 1] = mem[i + 1] + mem[i] * 10
+        mem[i + 2] = mem[i + 2] + mem[i + 1] * -1
+        mem[i + 3] = mem[i + 3] + mem[i + 1] * -1
+        mem[i + 4] = mem[i + 4] + mem[i + 1] * -1
+        mem[i + 5] = mem[i + 5] + mem[i + 1] * -1
+        mem[i + 1] = 0
+        mem[i] = 0
+mem[i + 2] = mem[i + 2] - 7
+mem[i + 3] = mem[i + 3] - 6
+mem[i + 4] = mem[i + 4] - 7
+mem[i + 5] = mem[i + 5] - 24
+......
+```
+
+这里的代码仍然有优化空间，主要是因为当 i 与输入无关时，许多运算都是常量，可以使用 z3 或者 angr 进行化简，但是题目比较简单，可以直接看出代码逻辑就是简单比较
+
 # Pwn
 
 ## reg
